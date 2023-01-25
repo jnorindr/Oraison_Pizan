@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "DTD_Oraison_Pizan.dtd">
+<?xml-model href="RNG_Oraison_Pizan.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="RNG_Oraison_Pizan.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oraison à Notre Dame</title>
+            <author ref="https://data.bnf.fr/ark:/12148/cb11896834h" xml:id="ChristinePizan">Christine de Pizan</author>
+         </titleStmt>
+
+         <editionStmt>
+            <edition>Édition réalisée pour l'évaluation de XML-TEI du M2 TNAH (École nationale des
+               chartes). <date when="2023-01">Janvier 2023</date>. </edition>
+            <respStmt>
+               <resp>Transcription et encodage par</resp>
+               <persName>Jade Norindr</persName>
+            </respStmt>
+         </editionStmt>
+
+         <publicationStmt>
+            <publisher>Édition encodée dans le cadre du master TNAH de l'École nationale des
+               chartes.</publisher>
+            <pubPlace>Paris</pubPlace>
+            <date when="2023-01">Janvier 2023</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <msDesc xml:id="fr12779">
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+                  <repository>Département des manuscrits</repository>
+                  <idno type="shelfmark">Français 12779</idno>
+                  <idno type="ark" source="gallica">12148/btv1b60001038</idno>
+                  <idno type="ark" source="catalog">12148/cc13026h</idno>
+                  <altIdentifier>
+                     <idno>Supplément français 6259</idno>
+                     <note>Ancienne cote</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Mouchet 6</idno>
+                     <note>Ancienne cote</note>
+                  </altIdentifier>
+               </msIdentifier>
+
+               <head>
+                  <title>Le livre de Christine</title>
+                  <origDate>1402-1405</origDate>
+               </head>
+
+               <msContents>
+                  <summary>
+                     <locus from="1a" to="21d">Cent balades</locus>
+                     <locus from="21bis" to="24c">Virelays</locus>
+                     <locus from="24c" to="25b">Les balades d'estrange façon</locus>
+                     <locus from="25b" to="32d">Ballades de divers propos</locus>
+                     <locus from="33a" to="34d">Complainte amoureuse II</locus>
+                     <locus from="37a" to="39a">Lays</locus>
+                     <locus from="39b" to="45b">Rondeaux</locus>
+                     <locus from="45c" to="48d">Jeux a vendre</locus>
+                     <locus from="50a" to="65b">Débat de deux amants</locus>
+                     <locus from="65c" to="71d">Epistre au dieu d'Amours</locus>
+                     <locus from="72a" to="77a">Dit de la Rose</locus>
+                     <locus from="77c" to="89c">Livre des trois jugements</locus>
+                     <locus from="90a" to="106b">Dit de Poissy</locus>
+                     <locus from="106c" to="141b">Epître d'Othéa</locus>
+                     <locus from="141c" to="149a">Epîtres sur le Roman de la Rose</locus>
+                     <locus from="149c" to="153d">Enseignement à son fils</locus>
+                     <locus from="154a" to="155d">Oraison Notre Dame</locus>
+                     <locus from="156a" to="156c">Les quinze joies de Notre Dame</locus>
+                     <locus from="157a" to="174d">Dit de la Pastoure</locus>
+                  </summary>
+
+                  <msItem xml:id="Oraison_ND">
+                     <locus from="154a" to="155d">Folios 154r à 155v</locus>
+                     <title>Oraison à Notre Dame</title>
+                     <incipit>O vierge pure Incomparable / Pleine de grace inextimable</incipit>
+                     <explicit>A ceulx qui ont pechié remis / Nous ottroit et grace pleniere.
+                        Amen</explicit>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Parchemin et papier</support>
+                        <foliation>172 feuillets et 6 feuillets de papiers. Cahiers: un cahier de
+                           deux feuillets (ff. 1-2) suivi d'un cahier de 6 feuillets (ff. 3-8), de 3
+                           cahiers de 8 feuillets (ff. 9-31), d'un cahier de 6 feuillets
+                           (c'est-à-dire 8-2, ff. 32-39), d'un cahier de 8 feuillets (ff. 40-47),
+                           d'un cahier de 7 feuillets (c'est-à-dire 8-1, ff. 48-55), de 6 cahiers de
+                           8 feuillets (ff. 56-103), d'un cahier de 5 feuillets (c'est-à-dire 8-3,
+                           ff. 104-108), d'un cahier de 6 feuillets (c'est-à-dire 8-2, ff.109-114),
+                           de 5 cahiers de 8 feuillets (ff. 115-154), d'un cahier de 2 feuillets
+                           (c'est-à-dire 4-2, ff. 155-156), de 2 cahiers de 8 feuillets (ff.
+                           157-172) et d'un cahier de deux feuillets (ff. 173-174).</foliation>
+                     </supportDesc>
+
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="32">Réglure à la mine de plomb.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+
+                  <handDesc hands="1">
+                     <handNote resp="#ChristinePizan">
+                        <persName>Christine de Pizan</persName>
+                        <p>Une seule main pour le texte, les corrections et les rubriques.</p>
+                     </handNote>
+                  </handDesc>
+
+                  <scriptDesc>
+                     <scriptNote>Ecriture cursive livresque à l'encre brune. Les rubriques sont
+                        écrites à l'encre rouge.</scriptNote>
+                     <scriptNote xml:id="pdm">Pieds-de-mouche au début de chaque strophe peints
+                        alternativement en bleu et rouge.</scriptNote>
+                  </scriptDesc>
+
+                  <decoDesc>
+                     <decoNote type="miniature">Neuf miniatures de la largeur d'une colonne aux
+                        feuillets 1, 90v, 106v, 107v, 108, 149v, 154, 157. Réalisées par le
+                           <persName>Maître de la Pastoure</persName> et le <persName>Maître de
+                           Jeanne Ravenelle</persName>.</decoNote>
+                     <decoNote type="initial">Lettrines attribuables au <persName>filigraneur « aux
+                           lys losangés »</persName>.</decoNote>
+                     <decoNote type="miniature" xml:id="M7" facs="img/Miniature7">Miniature de 12
+                        lignes de hauteur, couleurs variées dans les tons rouges et bleus. Cadre de
+                        lierre doré. Sur fond bleu à motif de rinceaux rouge,
+                        <persName ref="#ChristinePizan">Christine de Pizan</persName> est représentée, à
+                        droite de la miniature, tendant un livre rouge à la <persName ref="#ViergeMarie">Vierge Marie</persName>.
+                        Celle-ci est représentée en Vierge en majesté : auréolée, elle porte une couronne et est assise sur un
+                        trône rouge, et tient sur ses genoux le <persName ref="#JesusChrist">Christ</persName>
+                        enfant, auréolé également. Tous les personnages sont vêtus de blanc.
+                        Cette miniature représente <persName ref="#ChristinePizan">Christine de Pizan</persName>
+                        dédiant son oraison à la <persName ref="#ViergeMarie">Vierge</persName>.</decoNote>
+                     <decoNote type="initial" xml:id="O">Lettre O : initiale de 4 lignes de hauteur,
+                        décorations stylisées dorées, rouges et bleues. Rinceaux marginaux qui se
+                        déploient jusqu'au bas de la colonne.</decoNote>
+                  </decoDesc>
+
+                  <bindingDesc>
+                     <decoNote>Reliure veau marbré au chiffre de Louis-Philippe. Deux pièces de
+                        titre au dos de peau noire : « Collection Mouchet » et « Poésies de
+                        Christine de Pisan ».</decoNote>
+                  </bindingDesc>
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <p>Copié en 1402, Dit de la Pastoure ajouté en 1403 (<bibl corresp="#Ouy2012">Ouy et al., 2012</bibl>).</p>
+                  </origin>
+                  <acquisition>
+                     <p>Provient de la bibliothèque de Jean-Baptiste La Curne de Sainte-Palaye. Ce
+                        recueil est ensuite échangé avec le marquis de Paulmy (<bibl corresp="#Delisle1868">Delisle, 1886</bibl>), 
+                        avant de rentrer dans la bibliothèque de G.J. Mouchet. Le manuscrit est acquis par la Bibliothèque
+                        Royale ou Impériale en 1807.</p>
+                     <p><bibl corresp="#Josserand1960">Estampille correspondant au n° 21 bis de
+                           Josserand-Bruno</bibl>.</p>
+                  </acquisition>
+               </history>
+
+               <additional>
+                  <listBibl>
+                     <head>Bibliographie des ouvrages mentionnant le manuscrit Français 12779</head>
+                     <bibl xml:id="Delisle1868">
+                        <author><persName>Léopold Delisle</persName></author>
+                        <title level="m">Le cabinet des manuscrits de la Bibliothèque impériale;
+                           étude sur la formation de ce dépôt comprenant les éléments d'une histoire
+                           de la calligraphie de la miniature, de la reliure, et du commerce des
+                           livres à Paris avant l'invention de l'imprimerie</title>
+                        <publisher>Imprimerie impériale</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date from="1868" to="1881">1868-1881</date>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="page" from="557" to="575">p. 557-575</biblScope>
+                        <biblScope unit="volume">2</biblScope>
+                        <biblScope unit="page" n="282">p. 282</biblScope>
+                     </bibl>
+                     <bibl xml:id="Roy1886">
+                        <author><persName ref="#ChristinePizan">Christine de
+                           Pizan</persName></author>
+                        <editor><persName>Maurice Roy</persName></editor>
+                        <title level="m">Oeuvres poétiques de Christine de Pisan</title>
+                        <publisher>Firmin-Didot</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date when="1886">1886</date>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="page" from="xviii" to="xix">xviii-xix</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                     </bibl>
+                     <bibl xml:id="Josserand1960">
+                        <author><persName>Pierre Josserand</persName></author>
+                        <author><persName>Jean Bruno</persName></author>
+                        <title level="a">Les Estampilles du département des imprimés de la
+                           Bibliothèque nationale</title>
+                        <title level="m">Mélanges d’histoire du livre et des bibliothèques offerts à
+                           Monsieur Franz Calot</title>
+                        <publisher>Librairie d'Argences</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date when="1960">1960</date>
+                        <biblScope unit="page" from="261" to="298">p. 261-298</biblScope>
+                        <biblScope unit="planche" from="XXIII" to="XXIV">pl. XXIII-XXIV</biblScope>
+                     </bibl>
+                     <bibl xml:id="Williard1962">
+                        <author><persName>Charity C. Williard</persName></author>
+                        <title level="a">Christine de Pisan's Clock of Temperance</title>
+                        <title level="m">L'esprit créateur</title>
+                        <date when="1962">1962</date>
+                        <biblScope unit="issue">2</biblScope>
+                        <biblScope unit="page" from="149" to="154">p. 149-154</biblScope>
+                     </bibl>
+                     <bibl xml:id="Mombello1967">
+                        <author><persName>Gianni Mombello</persName></author>
+                        <title level="m">La tradizione manuscrittaé dell'' Espistre Othea di
+                           Christine de Pizan. Prolegomeni all'edizione del testo</title>
+                        <publisher>Academia delle Scienze</publisher>
+                        <pubPlace>Turin</pubPlace>
+                        <date when="1967">1967</date>
+                        <biblScope unit="page" from="63" to="70">p. 63-70</biblScope>
+                     </bibl>
+                     <bibl xml:id="Farquhar1976">
+                        <author><persName>James D. Farquhar</persName></author>
+                        <author><persName>Eric C. Hicks</persName></author>
+                        <title level="a">Christine de Pizan's Dit de la Pastoure in Baltimore membra
+                           disjecta</title>
+                        <title level="m">Scriptorium</title>
+                        <date when="1976">1976</date>
+                        <biblScope unit="issue">30</biblScope>
+                        <biblScope unit="page" from="192" to="200">p. 192-200</biblScope>
+                     </bibl>
+                     <bibl xml:id="Hicks1977">
+                        <author><persName ref="#ChristinePizan">Christine de
+                           Pizan</persName></author>
+                        <author><persName>Jean Gerson</persName></author>
+                        <author><persName>Jean de Montreuil</persName></author>
+                        <author><persName>Gontier</persName></author>
+                        <author><persName>Pierre Col</persName></author>
+                        <editor><persName>Eric C. Hicks</persName></editor>
+                        <title level="m">Débat sur le Roman de la Rose</title>
+                        <publisher>Champion</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date when="1977">1977</date>
+                        <biblScope unit="page" from="lxxi" to="lxxii">p. lxxi-lxxii</biblScope>
+                     </bibl>
+                     <bibl xml:id="Laidlaw1987">
+                        <author><persName>James C. Laidlaw</persName></author>
+                        <title level="a">Christine de Pizan – A Publisher's Progress</title>
+                        <title level="m">The Modern Language Review</title>
+                        <date when="1987">1987</date>
+                        <biblScope unit="volume">t. 82</biblScope>
+                        <biblScope unit="page" from="42" to="52">p. 42-52</biblScope>
+                     </bibl>
+                     <bibl xml:id="Altmann1998">
+                        <author><persName>Barbara K. Altmann</persName></author>
+                        <title level="m">The Love Debate Poems of Christine de Pizan : le Livre du
+                           débat des deux amants, le Livre des trois jugements, le Livre du Dit de
+                           Poissy</title>
+                        <publisher xml:lang="en">University Press of Florida</publisher>
+                        <pubPlace>Gainesville</pubPlace>
+                        <date when="1998">1998</date>
+                     </bibl>
+                     <bibl xml:id="Lefevre2002">
+                        <author><persName>Sylvie Lefevre</persName></author>
+                        <title level="a">Prologues de recueils et mise en œuvre des textes : Robert
+                           de Blois, Christine de Pizan et Antoine de La Sale</title>
+                        <title level="m">Seuils de l’œuvre dans le texte médiéval</title>
+                        <publisher>Presses de la Sorbonne Nouvelle</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date when="2002">2002</date>
+                        <biblScope unit="page" from="89" to="125">p. 89-125</biblScope>
+                     </bibl>
+                     <bibl xml:id="VillelaPetit2004">
+                        <author><persName>Inès Villela-Petit</persName></author>
+                        <title level="m">Le gothique international. L'art en France au temps de
+                           Charles VI</title>
+                        <publisher>Edition Hazan-Musée du Louvre</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date when="2004"/>
+                        <biblScope unit="page" n="108">p. 108</biblScope>
+                     </bibl>
+                     <bibl xml:id="Connolly2006">
+                        <author><persName>Margaret Conolly</persName></author>
+                        <author><persName>Yolanda Plumley</persName></author>
+                        <title level="a">Crossing the channel : John Shirley and the circulation of
+                           french lyric poetry in England in the early fifteenth century</title>
+                        <title level="m">Patrons, authors and workshops. Books and book production
+                           in Paris around 1400</title>
+                        <publisher>Peeters</publisher>
+                        <pubPlace>Louvain</pubPlace>
+                        <date when="2006">2006</date>
+                        <biblScope unit="page" from="311" to="331">p. 311-331</biblScope>
+                     </bibl>
+                     <bibl xml:id="Taylor2007">
+                        <author><persName>Jane H. M. Taylor</persName></author>
+                        <title level="m">The making of poetry. Late-Medieval french poetic
+                           anthologies</title>
+                        <publisher>Brepols</publisher>
+                        <pubPlace>Turnhout</pubPlace>
+                        <date when="2007">2007</date>
+                        <biblScope unit="page" n="20">Cité p. 20</biblScope>
+                     </bibl>
+                     <bibl xml:id="Delsaux2008">
+                        <author><persName>Olivier Delsaux</persName></author>
+                        <title level="a">La philologie au risque de l'autographie. L'exemple du
+                           Débat de deux amans de Christine de Pizan</title>
+                        <title level="m">Revue belge de philologie et d'histoire</title>
+                        <date when="2008">2008</date>
+                        <biblScope unit="issue">86</biblScope>
+                        <biblScope unit="page" from="678" to="707">p. 678-707</biblScope>
+                        <biblScope unit="page" n="678">Cité p. 678</biblScope>
+                     </bibl>
+                     <bibl xml:id="Delsaux2008-2">
+                        <author><persName>Olivier Delsaux</persName></author>
+                        <title level="a">La publication autographe en moyen français : enjeux d'une
+                           définition à partir du cas de Christine de Pizan. Une recherche en
+                           chantier</title>
+                        <title level="m">Le moyen français</title>
+                        <date when="2008">2008</date>
+                        <biblScope unit="volume">63</biblScope>
+                        <biblScope unit="page" from="9" to="44">p. 9-44</biblScope>
+                        <biblScope unit="page" n="11">Cité p. 11</biblScope>
+                     </bibl>
+                     <bibl xml:id="KostaThefaine2008">
+                        <author><persName>Jean-François Kosta-Thefaine</persName></author>
+                        <title level="a">Les .XV. Joyes nostre Dame rimees de Christine de
+                           Pizan</title>
+                        <title level="m">Cahiers de recherches médiévales et humanistes</title>
+                        <publisher>Champion</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date when="2008">2008</date>
+                        <biblScope unit="issue">16</biblScope>
+                        <biblScope unit="page" from="255" to="277">p. 255-277</biblScope>
+                     </bibl>
+                     <bibl xml:id="Peters2008">
+                        <author><persName>Ursula Peters</persName></author>
+                        <title level="m">Das Ich im Bild : Die Figur des Autors in volkssprachigen
+                           Bilderhandschriften des 13. bis 16. Jahrhunderts </title>
+                        <publisher>Böhlau</publisher>
+                        <pubPlace>Cologne</pubPlace>
+                        <date when="2008">2008</date>
+                     </bibl>
+                     <bibl xml:id="VillelaPetit2008">
+                        <author><persName>Inès Villela-Petit</persName></author>
+                        <title level="a">À la recherche d’Anastaise</title>
+                        <title level="m">Cahiers de recherches médiévales et humanistes</title>
+                        <publisher>Champion</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date when="2008">2008</date>
+                        <biblScope unit="issue">16</biblScope>
+                        <biblScope unit="page" from="301">p. 301 et suivantes</biblScope>
+                     </bibl>
+                     <bibl xml:id="Barbier2011">
+                        <author><persName>Anne-Marie Barbier</persName></author>
+                        <title level="a">Dessein avoué et intentions voilées dans les
+                           représentations allégoriques de l’Epitre Othea de Christine de
+                           Pizan</title>
+                        <title level="m">L'allégorie dans l'art du Moyen âge. Formes et fonctions :
+                           héritages, créations, mutations</title>
+                        <publisher>Brepols</publisher>
+                        <pubPlace>Turnhout</pubPlace>
+                        <date when="2011">2011</date>
+                        <biblScope unit="page" from="289" to="303">p. 289-303</biblScope>
+                        <biblScope unit="page" n="303">Cité p. 303</biblScope>
+                     </bibl>
+                     <bibl xml:id="Delsaux2011">
+                        <author><persName>Olivier Delsaux</persName></author>
+                        <title level="a">Le pin de Jean Castel, fils d'Étienne Castel et de
+                           Christine de Pizan</title>
+                        <title level="m">Archives d'histoire doctrinale et littéraire du Moyen
+                           Âge</title>
+                        <date when="2011">2011</date>
+                        <biblScope unit="page" from="335" to="375">p. 335-375</biblScope>
+                        <ref target="https://www.cairn.info/revue-archives-d-histoire-doctrinale-et-litteraire-du-moyen-age-2011-1-page-335.htm">
+                           https://www.cairn.info/revue-archives-d-histoire-doctrinale-et-litteraire-du-moyen-age-2011-1-page-335.htm
+                        </ref>
+                     </bibl>
+                     <bibl xml:id="Barbier2012">
+                        <author><persName>Anne-Marie Barbier</persName></author>
+                        <title level="a">Les cycles iconographiques courts de l’Epistre Othea (vers
+                           1400-1405) : un essai de conciliation entre éthique profane et éthique
+                           religieuse ?</title>
+                        <title level="m">Christine de Pizan et son époque, Actes du colloque
+                           international des 9, 10 et 11 décembre 2011 à Amiens</title>
+                        <publisher>Presses du "Centre d'études médiévales", Université de Picardie -
+                           Jules Verne</publisher>
+                        <pubPlace>Amiens</pubPlace>
+                        <date when="2012">2012</date>
+                        <biblScope unit="page" from="18" to="31">p. 18-31</biblScope>
+                     </bibl>
+                     <bibl xml:id="Ouy2012">
+                        <author><persName>Gilbert Ouy</persName></author>
+                        <author><persName>Christine Reno</persName></author>
+                        <author><persName>Inès Villela-Petit</persName></author>
+                        <title>Album Christine de Pizan</title>
+                        <publisher>Brepols</publisher>
+                        <pubPlace>Turnhout</pubPlace>
+                        <date when="2012">2012</date>
+                        <biblScope unit="page" from="213" to="226">p. 213-226</biblScope>
+                     </bibl>
+                     <bibl xml:id="Ouy2012-2">
+                        <author><persName>Gilbert Ouy</persName></author>
+                        <author><persName>Christine Reno</persName></author>
+                        <title level="a">La copie hâtive des Proverbes moraux</title>
+                        <title level="m">Cahiers de recherches médiévales et humanistes</title>
+                        <date when="2012">2012</date>
+                        <biblScope unit="issue">23</biblScope>
+                     </bibl>
+                     <bibl xml:id="Delsaux2013">
+                        <author><persName>Olivier Delsaux</persName></author>
+                        <title level="m">Manuscrits et pratiques autographes chez les écrivains
+                           français de la fin du Moyen Âge: l'exemple de Christine de Pizan</title>
+                        <publisher>Droz</publisher>
+                        <pubPlace>Genève</pubPlace>
+                        <date when="2013">2013</date>
+                        <biblScope unit="page">Cité p. 37, 209, 279, 348 et 442</biblScope>
+                     </bibl>
+                     <bibl xml:id="Valentini2014">
+                        <author><persName ref="#ChristinePizan">Christine de
+                           Pizan</persName></author>
+                        <editor><persName>Andrea Valentini</persName></editor>
+                        <title>Le Livre des epistres du debat sus le Rommant de la Rose</title>
+                        <publisher>Classiques Garnier</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date when="2014">2014</date>
+                        <biblScope unit="page">Cité p. 8 et 19</biblScope>
+                     </bibl>
+                     <bibl xml:id="Barbier2016">
+                        <author><persName>Anne-Marie Barbier</persName></author>
+                        <title level="a">La mise en page de l'illustration dans un manuscrit de
+                           l'"Epistre Othea" du début du XVe siècle : Fonctions et
+                           significations</title>
+                        <title level="m">La pensée du regard. Etudes d'histoire de l'art du Moyen
+                           Age offertes à Christian Heck</title>
+                        <publisher>Brepols</publisher>
+                        <pubPlace>Turnhout</pubPlace>
+                        <date when="2016">2016</date>
+                        <biblScope unit="page" n="39">Cité p. 39</biblScope>
+                     </bibl>
+                     <bibl xml:id="Romania2016">
+                        <title level="m">Romania</title>
+                        <publisher>Librairie Droz</publisher>
+                        <pubPlace>Genève</pubPlace>
+                        <date when="2016">2016</date>
+                        <biblScope unit="volume">134</biblScope>
+                        <biblScope unit="page" n="463">Cité p. 463</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+      <profileDesc>
+         <settingDesc>
+            <place xml:id="France">
+               <country>France</country>
+               <note>Royaume de France.</note>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="ViergeMarie">
+                  <persName>Vierge Marie</persName>
+                  <note>Mère de <persName ref="#JesusChrist">Jésus Christ</persName>.</note>
+               </person>
+               <person xml:id="Dieu">
+                  <persName>Dieu</persName>
+                  <note>Dieu le Père.</note>
+               </person>
+               <person xml:id="JesusChrist">
+                  <persName>Jésus Christ</persName>
+                  <note>Dieu le Fils. Fils de la <persName ref="#ViergeMarie">Vierge Marie</persName>.</note>
+               </person>
+               <person xml:id="Trinite">
+                  <persName>Sainte Trinité</persName>
+                  <note>Le <persName ref="#Dieu">Père</persName>, le 
+                     <persName ref="#JesusChrist">Fils</persName> et le Saint Esprit.
+                  </note>
+               </person>
+               <person xml:id="Eve">
+                  <persName>Ève</persName>
+                  <note>Première femme, mère de l'humanité selon le Livre de la Genèse.</note>
+               </person>
+               <person xml:id="SaintBernard">
+                  <persName>Saint Bernard</persName>
+                  <note>Bernard de Fontaine, abbé de Clairvaux. Il participe au développement du
+                     culte de la <persName ref="#ViergeMarie">Vierge</persName> en Occident.</note>
+               </person>
+               <person xml:id="SaintJerome">
+                  <persName>Saint Jérôme</persName>
+                  <note>Jérôme de Stridon, Père et Docteur de l'Église. Ses écrits portent notamment
+                     sur la virginité et sur les femmes consacrées.</note>
+               </person>
+               <person xml:id="SaintAugustin">
+                  <persName>Saint Augustin</persName>
+                  <note>Augustin d'Hippone, Père et Docteur de l'Église.</note>
+               </person>
+               <person xml:id="SaintAmbroise">
+                  <persName>Saint Ambroise</persName>
+                  <note>Ambroise de Milan, Père et Docteur de l'Église. Comme Jérôme de Stridon, il
+                     défend l'émergence des femmes consacrées.</note>
+               </person>
+               <person xml:id="SaintAnsiaume">
+                  <persName>Saint Ansiaume</persName>
+                  <note>Saint chrétien.</note>
+               </person>
+               <person xml:id="Cassiodore">
+                  <persName>Cassiodore</persName>
+                  <note>Homme politique et écrivain latin.</note>
+               </person>
+               <person xml:id="CharlesV">
+                  <persName>Charles V</persName>
+                  <note>Ancien roi de France, père du roi <persName ref="#CharlesVI">Charles VI</persName>.</note>
+               </person>
+               <person xml:id="CharlesVI">
+                  <persName>Charles VI</persName>
+                  <note>Roi de France.</note>
+               </person>
+               <person xml:id="IsabeauBaviere">
+                  <persName>Isabeau de Bavière</persName>
+                  <note>Reine de France.</note>
+               </person>
+               <person xml:id="LouisGuyenne">
+                  <persName>Louis de Guyenne</persName>
+                  <note>Troisième dauphin de France. Fils de 
+                     <persName ref="#CharlesVI">Charles VI</persName> et 
+                     <persName ref="#IsabeauBaviere">Isabeau de Bavière</persName>.
+                  </note>
+               </person>
+               <person xml:id="LouisOrleans">
+                  <persName>Louis Ier d'Orléans</persName>
+                  <note>Duc d'Orléans, frère cadet de 
+                     <persName ref="#CharlesVI">Charles VI</persName>.
+                  </note>
+               </person>
+               <person xml:id="CharlesAlbret">
+                  <persName>Charles Ier d'Albret</persName>
+                  <note>Connétable de France.</note>
+               </person>
+               <person xml:id="OnclesRoi">
+                  <persName>Philippe le Hardi</persName>
+                  <persName>Jean de Berry</persName>
+                  <persName>Louis II de Bourbon</persName>
+                  <note>Oncles du 
+                     <persName ref="#CharlesVI">roi Charles VI</persName>, frères de 
+                     <persName ref="#CharlesV">Charles V</persName>.
+                  </note>
+               </person>
+               <person xml:id="EnfantsRoi">
+                  <persName>Isabelle de France</persName>
+                  <persName>Jeanne de France</persName>
+                  <persName>Marie de France</persName>
+                  <persName>Michelle de France</persName>
+                  <persName>Jean de France</persName>
+                  <persName>Catherine de France</persName>
+                  <persName>Charles VII</persName>
+                  <note>Enfants de 
+                     <persName ref="#CharlesVI">Charles VI</persName> et d'
+                     <persName ref="IsabeauBaviere">Isabeau de Bavière</persName>.
+                  </note>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="img/Oraison_154r" width="1024px" height="1285px"/>
+         <zone xml:id="l1" ulx="126" uly="491" lrx="426" lry="508"/>
+         <zone xml:id="l2" ulx="124" uly="532" lrx="428" lry="552"/>
+         <zone xml:id="l3" ulx="238" uly="562" lrx="442" lry="578"/>
+         <zone xml:id="l4" ulx="237" uly="587" lrx="431" lry="601"/>
+         <zone xml:id="l5" ulx="239" uly="609" lrx="438" lry="623"/>
+         <zone xml:id="l6" ulx="129" uly="630" lrx="331" lry="644"/>
+         <zone xml:id="l7" ulx="130" uly="648" lrx="349" lry="667"/>
+         <zone xml:id="l8" ulx="132" uly="672" lrx="333" lry="689"/>
+         <zone xml:id="l9" ulx="128" uly="699" lrx="352" lry="713"/>
+         <zone xml:id="l10" ulx="127" uly="715" lrx="326" lry="737"/>
+         <zone xml:id="l11" ulx="127" uly="739" lrx="369" lry="759"/>
+         <zone xml:id="l12" ulx="129" uly="762" lrx="373" lry="782"/>
+         <zone xml:id="l13" ulx="129" uly="786" lrx="375" lry="806"/>
+         <zone xml:id="l14" ulx="221" uly="811" lrx="313" lry="827"/>
+         <zone xml:id="l15" ulx="131" uly="826" lrx="411" lry="852"/>
+         <zone xml:id="l16" ulx="132" uly="854" lrx="401" lry="870"/>
+         <zone xml:id="l17" ulx="128" uly="878" lrx="377" lry="895"/>
+         <zone xml:id="l18" ulx="127" uly="898" lrx="351" lry="916"/>
+         <zone xml:id="l19" ulx="482" uly="217" lrx="775" lry="236"/>
+         <zone xml:id="l20" ulx="481" uly="241" lrx="730" lry="259"/>
+         <zone xml:id="l21" ulx="475" uly="265" lrx="717" lry="282"/>
+         <zone xml:id="l22" ulx="478" uly="290" lrx="731" lry="305"/>
+         <zone xml:id="l23" ulx="477" uly="312" lrx="698" lry="330"/>
+         <zone xml:id="l24" ulx="479" uly="336" lrx="723" lry="349"/>
+         <zone xml:id="l25" ulx="482" uly="357" lrx="748" lry="375"/>
+         <zone xml:id="l26" ulx="481" uly="381" lrx="664" lry="395"/>
+         <zone xml:id="l27" ulx="578" uly="399" lrx="680" lry="419"/>
+         <zone xml:id="l28" ulx="483" uly="419" lrx="712" lry="442"/>
+         <zone xml:id="l29" ulx="481" uly="447" lrx="758" lry="467"/>
+         <zone xml:id="l30" ulx="480" uly="468" lrx="736" lry="486"/>
+         <zone xml:id="l31" ulx="486" uly="493" lrx="727" lry="511"/>
+         <zone xml:id="l32" ulx="486" uly="515" lrx="715" lry="531"/>
+         <zone xml:id="l33" ulx="487" uly="537" lrx="717" lry="556"/>
+         <zone xml:id="l34" ulx="486" uly="558" lrx="732" lry="580"/>
+         <zone xml:id="l35" ulx="486" uly="583" lrx="708" lry="602"/>
+         <zone xml:id="l36" ulx="485" uly="607" lrx="708" lry="623"/>
+         <zone xml:id="l37" ulx="483" uly="627" lrx="708" lry="646"/>
+         <zone xml:id="l38" ulx="484" uly="654" lrx="736" lry="668"/>
+         <zone xml:id="l39" ulx="480" uly="676" lrx="742" lry="694"/>
+         <zone xml:id="l40" ulx="587" uly="698" lrx="682" lry="715"/>
+         <zone xml:id="l41" ulx="481" uly="713" lrx="698" lry="737"/>
+         <zone xml:id="l42" ulx="480" uly="739" lrx="685" lry="760"/>
+         <zone xml:id="l43" ulx="480" uly="764" lrx="739" lry="783"/>
+         <zone xml:id="l44" ulx="481" uly="786" lrx="723" lry="806"/>
+         <zone xml:id="l45" ulx="482" uly="811" lrx="720" lry="830"/>
+         <zone xml:id="l46" ulx="485" uly="832" lrx="728" lry="852"/>
+         <zone xml:id="l47" ulx="483" uly="856" lrx="714" lry="878"/>
+         <zone xml:id="l48" ulx="483" uly="882" lrx="698" lry="897"/>
+         <zone xml:id="l49" ulx="483" uly="899" lrx="702" lry="918"/>
+      </surface>
+      <surface>
+         <graphic url="img/Oraison_154v" width="1023px" height="1294px"/>
+         <zone xml:id="l50" ulx="247" uly="225" lrx="455" lry="242"/>
+         <zone xml:id="l51" ulx="261" uly="247" lrx="423" lry="263"/>
+         <zone xml:id="l52" ulx="265" uly="273" lrx="470" lry="290"/>
+         <zone xml:id="l53" ulx="340" uly="294" lrx="429" lry="312"/>
+         <zone xml:id="l54" ulx="262" uly="318" lrx="420" lry="333"/>
+         <zone xml:id="l55" ulx="254" uly="344" lrx="471" lry="358"/>
+         <zone xml:id="l56" ulx="261" uly="362" lrx="468" lry="386"/>
+         <zone xml:id="l57" ulx="262" uly="386" lrx="427" lry="407"/>
+         <zone xml:id="l58" ulx="261" uly="413" lrx="478" lry="429"/>
+         <zone xml:id="l59" ulx="261" uly="438" lrx="472" lry="456"/>
+         <zone xml:id="l60" ulx="261" uly="462" lrx="455" lry="478"/>
+         <zone xml:id="l61" ulx="259" uly="483" lrx="504" lry="507"/>
+         <zone xml:id="l62" ulx="261" uly="509" lrx="502" lry="523"/>
+         <zone xml:id="l63" ulx="258" uly="528" lrx="529" lry="547"/>
+         <zone xml:id="l64" ulx="260" uly="552" lrx="550" lry="573"/>
+         <zone xml:id="l65" ulx="263" uly="576" lrx="504" lry="593"/>
+         <zone xml:id="l66" ulx="363" uly="600" lrx="452" lry="618"/>
+         <zone xml:id="l67" ulx="264" uly="627" lrx="498" lry="647"/>
+         <zone xml:id="l68" ulx="257" uly="653" lrx="523" lry="668"/>
+         <zone xml:id="l69" ulx="262" uly="679" lrx="435" lry="694"/>
+         <zone xml:id="l70" ulx="261" uly="695" lrx="484" lry="714"/>
+         <zone xml:id="l71" ulx="261" uly="719" lrx="499" lry="738"/>
+         <zone xml:id="l72" ulx="260" uly="744" lrx="440" lry="759"/>
+         <zone xml:id="l73" ulx="259" uly="768" lrx="464" lry="785"/>
+         <zone xml:id="l74" ulx="260" uly="790" lrx="477" lry="811"/>
+         <zone xml:id="l75" ulx="262" uly="814" lrx="459" lry="828"/>
+         <zone xml:id="l76" ulx="266" uly="831" lrx="483" lry="854"/>
+         <zone xml:id="l77" ulx="263" uly="861" lrx="492" lry="882"/>
+         <zone xml:id="l78" ulx="264" uly="886" lrx="485" lry="900"/>
+         <zone xml:id="l79" ulx="370" uly="906" lrx="467" lry="922"/>
+         <zone xml:id="l80" ulx="260" uly="929" lrx="511" lry="947"/>
+         <zone xml:id="l81" ulx="269" uly="953" lrx="530" lry="968"/>
+         <zone xml:id="l82" ulx="631" uly="226" lrx="869" lry="243"/>
+         <zone xml:id="l83" ulx="628" uly="250" lrx="843" lry="262"/>
+         <zone xml:id="l84" ulx="635" uly="274" lrx="833" lry="287"/>
+         <zone xml:id="l85" ulx="633" uly="296" lrx="886" lry="311"/>
+         <zone xml:id="l86" ulx="628" uly="320" lrx="877" lry="336"/>
+         <zone xml:id="l87" ulx="630" uly="344" lrx="856" lry="360"/>
+         <zone xml:id="l88" ulx="634" uly="365" lrx="857" lry="384"/>
+         <zone xml:id="l89" ulx="631" uly="388" lrx="812" lry="410"/>
+         <zone xml:id="l90" ulx="634" uly="411" lrx="839" lry="431"/>
+         <zone xml:id="l91" ulx="631" uly="433" lrx="859" lry="456"/>
+         <zone xml:id="l92" ulx="720" uly="457" lrx="815" lry="477"/>
+         <zone xml:id="l93" ulx="630" uly="481" lrx="861" lry="502"/>
+         <zone xml:id="l94" ulx="631" uly="507" lrx="862" lry="520"/>
+         <zone xml:id="l95" ulx="630" uly="529" lrx="883" lry="548"/>
+         <zone xml:id="l96" ulx="631" uly="554" lrx="809" lry="571"/>
+         <zone xml:id="l97" ulx="630" uly="574" lrx="814" lry="595"/>
+         <zone xml:id="l98" ulx="634" uly="598" lrx="835" lry="618"/>
+         <zone xml:id="l99" ulx="630" uly="626" lrx="832" lry="638"/>
+         <zone xml:id="l100" ulx="628" uly="642" lrx="846" lry="662"/>
+         <zone xml:id="l101" ulx="632" uly="666" lrx="877" lry="685"/>
+         <zone xml:id="l102" ulx="630" uly="690" lrx="860" lry="711"/>
+         <zone xml:id="l103" ulx="629" uly="714" lrx="850" lry="733"/>
+         <zone xml:id="l104" ulx="631" uly="735" lrx="861" lry="753"/>
+         <zone xml:id="l105" ulx="721" uly="761" lrx="818" lry="779"/>
+         <zone xml:id="l106" ulx="630" uly="780" lrx="907" lry="805"/>
+         <zone xml:id="l107" ulx="632" uly="808" lrx="899" lry="825"/>
+         <zone xml:id="l108" ulx="632" uly="831" lrx="865" lry="844"/>
+         <zone xml:id="l109" ulx="632" uly="851" lrx="873" lry="871"/>
+         <zone xml:id="l110" ulx="629" uly="879" lrx="887" lry="897"/>
+         <zone xml:id="l111" ulx="632" uly="901" lrx="882" lry="916"/>
+         <zone xml:id="l112" ulx="629" uly="924" lrx="864" lry="939"/>
+         <zone xml:id="l113" ulx="629" uly="945" lrx="834" lry="961"/>
+         <zone xml:id="cw1" ulx="813" uly="1079" lrx="942" lry="1097"/>
+      </surface>
+      <surface>
+         <graphic url="img/Oraison_155r" width="1024px" height="1285px"/>
+         <zone xml:id="l114" ulx="145" uly="208" lrx="353" lry="233"/>
+         <zone xml:id="l115" ulx="146" uly="233" lrx="350" lry="255"/>
+         <zone xml:id="l116" ulx="147" uly="260" lrx="367" lry="279"/>
+         <zone xml:id="l117" ulx="146" uly="285" lrx="341" lry="299"/>
+         <zone xml:id="l118" ulx="215" uly="308" lrx="307" lry="320"/>
+         <zone xml:id="l119" ulx="144" uly="324" lrx="353" lry="349"/>
+         <zone xml:id="l120" ulx="149" uly="348" lrx="390" lry="368"/>
+         <zone xml:id="l121" ulx="144" uly="370" lrx="357" lry="391"/>
+         <zone xml:id="l122" ulx="151" uly="397" lrx="345" lry="415"/>
+         <zone xml:id="l123" ulx="145" uly="418" lrx="352" lry="440"/>
+         <zone xml:id="l124" ulx="144" uly="438" lrx="371" lry="460"/>
+         <zone xml:id="l125" ulx="145" uly="463" lrx="377" lry="483"/>
+         <zone xml:id="l126" ulx="142" uly="484" lrx="346" lry="507"/>
+         <zone xml:id="l127" ulx="145" uly="508" lrx="363" lry="529"/>
+         <zone xml:id="l128" ulx="145" uly="530" lrx="368" lry="549"/>
+         <zone xml:id="l129" ulx="142" uly="551" lrx="397" lry="574"/>
+         <zone xml:id="l130" ulx="139" uly="578" lrx="394" lry="599"/>
+         <zone xml:id="l131" ulx="232" uly="598" lrx="316" lry="617"/>
+         <zone xml:id="l132" ulx="141" uly="613" lrx="370" lry="643"/>
+         <zone xml:id="l133" ulx="139" uly="643" lrx="386" lry="666"/>
+         <zone xml:id="l134" ulx="140" uly="664" lrx="319" lry="684"/>
+         <zone xml:id="l135" ulx="147" uly="683" lrx="398" lry="713"/>
+         <zone xml:id="l136" ulx="140" uly="709" lrx="360" lry="733"/>
+         <zone xml:id="l137" ulx="136" uly="729" lrx="379" lry="754"/>
+         <zone xml:id="l138" ulx="144" uly="750" lrx="367" lry="775"/>
+         <zone xml:id="l139" ulx="137" uly="775" lrx="390" lry="801"/>
+         <zone xml:id="l140" ulx="140" uly="798" lrx="375" lry="822"/>
+         <zone xml:id="l141" ulx="141" uly="822" lrx="374" lry="841"/>
+         <zone xml:id="l142" ulx="136" uly="843" lrx="368" lry="867"/>
+         <zone xml:id="l143" ulx="136" uly="868" lrx="343" lry="888"/>
+         <zone xml:id="l144" ulx="236" uly="887" lrx="331" lry="906"/>
+         <zone xml:id="l145" ulx="138" uly="896" lrx="339" lry="932"/>
+         <zone xml:id="l146" ulx="505" uly="214" lrx="713" lry="240"/>
+         <zone xml:id="l147" ulx="509" uly="240" lrx="770" lry="266"/>
+         <zone xml:id="l148" ulx="510" uly="263" lrx="771" lry="288"/>
+         <zone xml:id="l149" ulx="507" uly="288" lrx="709" lry="310"/>
+         <zone xml:id="l150" ulx="508" uly="310" lrx="745" lry="335"/>
+         <zone xml:id="l151" ulx="506" uly="330" lrx="711" lry="354"/>
+         <zone xml:id="l152" ulx="502" uly="354" lrx="725" lry="375"/>
+         <zone xml:id="l153" ulx="505" uly="377" lrx="721" lry="401"/>
+         <zone xml:id="l154" ulx="504" uly="402" lrx="714" lry="422"/>
+         <zone xml:id="l155" ulx="504" uly="426" lrx="739" lry="451"/>
+         <zone xml:id="l156" ulx="501" uly="450" lrx="738" lry="472"/>
+         <zone xml:id="l157" ulx="606" uly="470" lrx="693" lry="492"/>
+         <zone xml:id="l158" ulx="504" uly="484" lrx="675" lry="512"/>
+         <zone xml:id="l159" ulx="502" uly="512" lrx="737" lry="537"/>
+         <zone xml:id="l160" ulx="499" uly="538" lrx="724" lry="559"/>
+         <zone xml:id="l161" ulx="502" uly="560" lrx="757" lry="581"/>
+         <zone xml:id="l162" ulx="503" uly="577" lrx="727" lry="604"/>
+         <zone xml:id="l163" ulx="498" uly="605" lrx="738" lry="624"/>
+         <zone xml:id="l164" ulx="497" uly="627" lrx="700" lry="645"/>
+         <zone xml:id="l165" ulx="501" uly="651" lrx="714" lry="672"/>
+         <zone xml:id="l166" ulx="498" uly="674" lrx="732" lry="698"/>
+         <zone xml:id="l167" ulx="499" uly="694" lrx="706" lry="718"/>
+         <zone xml:id="l168" ulx="497" uly="724" lrx="733" lry="744"/>
+         <zone xml:id="l169" ulx="499" uly="744" lrx="733" lry="767"/>
+         <zone xml:id="l170" ulx="614" uly="767" lrx="701" lry="789"/>
+         <zone xml:id="l171" ulx="497" uly="783" lrx="692" lry="811"/>
+         <zone xml:id="l172" ulx="497" uly="812" lrx="722" lry="833"/>
+         <zone xml:id="l173" ulx="501" uly="832" lrx="731" lry="854"/>
+         <zone xml:id="l174" ulx="497" uly="851" lrx="691" lry="872"/>
+         <zone xml:id="l175" ulx="496" uly="872" lrx="749" lry="896"/>
+         <zone xml:id="l176" ulx="495" uly="895" lrx="693" lry="916"/>
+         <zone xml:id="l177" ulx="492" uly="920" lrx="740" lry="939"/>
+      </surface>
+      <surface>
+         <graphic url="img/Oraison_154v" width="1023px" height="1290px"/>
+         <zone xml:id="l178" ulx="244" uly="223" lrx="415" lry="236"/>
+         <zone xml:id="l179" ulx="249" uly="246" lrx="504" lry="258"/>
+         <zone xml:id="l180" ulx="246" uly="266" lrx="467" lry="286"/>
+         <zone xml:id="l181" ulx="246" uly="294" lrx="499" lry="307"/>
+         <zone xml:id="l182" ulx="250" uly="312" lrx="506" lry="331"/>
+         <zone xml:id="l183" ulx="334" uly="333" lrx="430" lry="351"/>
+         <zone xml:id="l184" ulx="249" uly="356" lrx="468" lry="373"/>
+         <zone xml:id="l185" ulx="246" uly="383" lrx="495" lry="396"/>
+         <zone xml:id="l186" ulx="248" uly="400" lrx="489" lry="419"/>
+         <zone xml:id="l187" ulx="246" uly="426" lrx="462" lry="442"/>
+         <zone xml:id="l188" ulx="246" uly="450" lrx="523" lry="465"/>
+         <zone xml:id="l189" ulx="242" uly="472" lrx="517" lry="488"/>
+         <zone xml:id="l190" ulx="243" uly="499" lrx="513" lry="512"/>
+         <zone xml:id="l191" ulx="243" uly="517" lrx="526" lry="533"/>
+         <zone xml:id="l192" ulx="247" uly="540" lrx="516" lry="555"/>
+         <zone xml:id="l193" ulx="249" uly="560" lrx="527" lry="577"/>
+         <zone xml:id="l194" ulx="252" uly="582" lrx="502" lry="599"/>
+         <zone xml:id="l195" ulx="250" uly="602" lrx="486" lry="622"/>
+         <zone xml:id="l196" ulx="336" uly="626" lrx="436" lry="644"/>
+         <zone xml:id="l197" ulx="248" uly="647" lrx="509" lry="666"/>
+         <zone xml:id="l198" ulx="252" uly="671" lrx="508" lry="687"/>
+         <zone xml:id="l199" ulx="251" uly="693" lrx="443" lry="709"/>
+         <zone xml:id="l200" ulx="248" uly="718" lrx="528" lry="733"/>
+         <zone xml:id="l201" ulx="251" uly="737" lrx="491" lry="751"/>
+         <zone xml:id="l202" ulx="253" uly="760" lrx="475" lry="774"/>
+         <zone xml:id="l203" ulx="252" uly="783" lrx="509" lry="799"/>
+         <zone xml:id="l204" ulx="252" uly="804" lrx="463" lry="817"/>
+         <zone xml:id="l205" ulx="249" uly="826" lrx="499" lry="845"/>
+         <zone xml:id="l206" ulx="253" uly="849" lrx="472" lry="864"/>
+         <zone xml:id="l207" ulx="255" uly="869" lrx="468" lry="883"/>
+         <zone xml:id="l208" ulx="258" uly="890" lrx="538" lry="912"/>
+         <zone xml:id="l209" ulx="355" uly="915" lrx="454" lry="928"/>
+         <zone xml:id="l210" ulx="610" uly="219" lrx="826" lry="235"/>
+         <zone xml:id="l211" ulx="609" uly="239" lrx="825" lry="254"/>
+         <zone xml:id="l212" ulx="607" uly="265" lrx="863" lry="285"/>
+         <zone xml:id="l213" ulx="605" uly="287" lrx="837" lry="304"/>
+         <zone xml:id="l214" ulx="606" uly="307" lrx="834" lry="325"/>
+         <zone xml:id="l215" ulx="604" uly="328" lrx="847" lry="351"/>
+         <zone xml:id="l216" ulx="606" uly="359" lrx="844" lry="373"/>
+         <zone xml:id="l217" ulx="607" uly="376" lrx="900" lry="394"/>
+         <zone xml:id="l218" ulx="607" uly="401" lrx="839" lry="420"/>
+         <zone xml:id="l219" ulx="607" uly="423" lrx="839" lry="441"/>
+         <zone xml:id="l220" ulx="609" uly="448" lrx="858" lry="464"/>
+         <zone xml:id="l221" ulx="610" uly="468" lrx="863" lry="488"/>
+         <zone xml:id="l222" ulx="710" uly="490" lrx="806" lry="512"/>
+         <zone xml:id="l223" ulx="607" uly="508" lrx="870" lry="530"/>
+         <zone xml:id="l224" ulx="607" uly="535" lrx="864" lry="553"/>
+         <zone xml:id="l225" ulx="609" uly="559" lrx="832" lry="576"/>
+         <zone xml:id="l226" ulx="610" uly="580" lrx="885" lry="602"/>
+         <zone xml:id="l227" ulx="610" uly="601" lrx="875" lry="620"/>
+         <zone xml:id="l228" ulx="608" uly="626" lrx="849" lry="646"/>
+         <zone xml:id="l229" ulx="610" uly="649" lrx="852" lry="667"/>
+         <zone xml:id="l230" ulx="612" uly="669" lrx="882" lry="687"/>
+         <zone xml:id="l231" ulx="610" uly="694" lrx="826" lry="710"/>
+         <zone xml:id="l232" ulx="611" uly="714" lrx="843" lry="735"/>
+         <zone xml:id="l233" ulx="613" uly="739" lrx="853" lry="754"/>
+         <zone xml:id="l234" ulx="608" uly="756" lrx="853" lry="775"/>
+         <zone xml:id="l235" ulx="685" uly="820" lrx="796" lry="844"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="154r" facs="https://gallica.bnf.fr/ark:/12148/btv1b60001038/f311.item"/>
+         <cb n="1"/>
+         <lg type="oraison" corresp="#Oraison_ND">
+            <head facs="#l1" rend="color:red">Cy commence une oroison de <rs ref="#ViergeMarie">&N;&ostre; &D;ame</rs></head>
+            <lg type="stanza" n="1">
+               <l facs="#l2"><g type="initial" ref="#O" rend="color:blue">O</g>
+                  <persName ref="#ViergeMarie">&V;ierge</persName> pure &i;ncomparable&virg;</l>
+               <l facs="#l3">&P;laine de grace inextimable&virg;</l>
+               <l facs="#l4">&D;e <persName ref="#JesusChrist">&D;ieu</persName> mere tre&sl;&sp;glorieuse&virg;</l>
+               <l facs="#l5">A qui te requiert &sl;ecourable&virg;</l>
+               <l facs="#l6">Ma priere &sl;oit acceptable</l>
+               <l facs="#l7">&D;evant toy&virg; <persName ref="#ViergeMarie">&V;ierge</persName> precieu&sl;e&virg;</l>
+               <l facs="#l8">&D;oulce dame&virg; &sl;i te requier</l>
+               <l facs="#l9">Que m&ap;octroies ce que Je quier&dpts;</l>
+               <l facs="#l10">C&ap;e&sl;t pour toute &chrestp;iente</l>
+               <l facs="#l11">A qui paix et grant Joye acquier</l>
+               <l facs="#l12">&D;evant <rs ref="#JesusChrist">ton &F;ilz</rs>&virg; et tant enquier</l>
+               <l facs="#l13">Que tant bien &sl;oit en nous ent&acc;&pt;</l>
+            </lg>
+            <l facs="#l14">
+               <fw type="refrain" place="centred" rend="color:red">
+                  <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="2">
+               <l facs="#l15"><g ref="#pdm" rend="color:red">&pdm;</g>
+                  Et &sl;i com <persName ref="#SaintBernard">&sl;aint &B;ernard</persName> te&sl;mongne</l>
+               <l facs="#l16">Celle es par qui nous prolongne</l>
+               <l facs="#l17">Tout mal et qui ades ne fine</l>
+               <l facs="#l18">&D;e procurer n&ostre; be&sl;oingne&virg;</l>
+               <cb n="2"/>
+               <l facs="#l19">&D;evers <persName ref="#Dieu">&D;ieu</persName> priant qu&ap;il n&ap;e&sl;loingne</l>
+               <l facs="#l20">&D;e nous &sl;a grace pure et fine&virg;</l>
+               <l facs="#l21">&P;our &sl;aincte &E;gli&sl;e requerir</l>
+               <l facs="#l23">Ce vueil qu&ap;il te plai&sl;e acquerir</l>
+               <l facs="#l24">&P;aix et vraye tran&sl;quillite&virg;</l>
+               <l facs="#l25">Et &sl;i bon pastour nous querir</l>
+               <l facs="#l26">Qui tous nous face a <persName ref="#Dieu">&D;ieu</persName> courir</l>
+               <l facs="#l27">En foy et en humilite&pt;</l>
+            </lg>
+            <l facs="#l28">
+               <fw type="refrain" place="centred" rend="color:red">
+                  <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="3">
+               <l facs="#l29"><g ref="#pdm" rend="color:blue">&pdm;</g>
+                  <persName ref="#ViergeMarie">Vierge</persName> &sl;acree&virg; pure et ferme&virg;</l>
+               <l facs="#l30">Si com <persName ref="#SaintBernard">&sl;aint &B;ernart</persName> nous afferme</l>
+               <l facs="#l31">En son &sl;aint &sl;ermon de l&ap;&A;dvent&virg;</l>
+               <l facs="#l32">Celle qui en foy nous conferme</l>
+               <l facs="#l33">Et en purte&virg; &et;nous defferme</l>
+               <l facs="#l34">&L;e ciel&virg; &sl;i &com;me il fu convent&virg;</l>
+               <l facs="#l35">&J;e te pry pour tous les prelas</l>
+               <l facs="#l36">&D;e &sl;aincte &E;gli&sl;e que des las</l>
+               <l facs="#l37">&D;e l&ap;ennemy tu les deffendes&virg;</l>
+               <l facs="#l38">Cures &et;pre&sl;tres leur &sl;onlas</l>
+               <l facs="#l39">Soit en bien faire et Jamais las</l>
+               <l facs="#l40">N&ap;en &sl;oient et quen ciel les &r;endes&pt;</l>
+            </lg>
+            <l facs="#l41">
+               <fw type="refrain" place="centred" rend="color:red">
+               <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="4">
+               <l facs="#l41"><g ref="#pdm" rend="color:red">&pdm;</g>
+                  O nette&virg; pure et enterine</l>
+               <l facs="#l42">&D;e toute bonte la &r;acine&virg;</l>
+               <l facs="#l43">Si com <persName ref="#SaintJerome">&sl;aint Jerome</persName> nous dit&virg;</l>
+               <l facs="#l44">A&sl;&sl;i&sl;e ou plus hault &ter;mine</l>
+               <l facs="#l45">&D;u ciel par la grace divine</l>
+               <l facs="#l46">Apres <rs ref="#JesusChrist">ton &F;ilz</rs> com fut predit&virg;</l>
+               <l facs="#l47">&P;pour le <rs ref="CharlesVI">&R;oy de <placeName ref="#France">&F;rance</placeName></rs> te pry</l>
+               <l facs="#l48">Qu&ap;en pitie tu oyes le cry</l>
+               <l facs="#l49">&D;e&sp;&sl;es bons &et;loyaux amis&virg;</l>
+               <pb n="154v" facs="https://gallica.bnf.fr/ark:/12148/btv1b60001038/f312.item"/>
+               <cb n="3"/>
+               <l facs="#l50">Paix et vraye &sl;ante de&sl;cri</l>
+               <l facs="#l51">A lui et ou livre le&sl;cry</l>
+               <l facs="#l52">Ou &D;ieu a tous &sl;es e&sl;leuz mis&pt;</l>
+            </lg>
+            <l facs="#l53">
+               <fw type="refrain" place="centred" rend="color:red">
+                  <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="5">
+               <l facs="#l54"><g ref="#pdm" rend="color:blue">&pdm;</g> 
+                  O tu&virg; <persName ref="#ViergeMarie">&V;ierge</persName> &pre;de&sl;tinee</l>
+               <l facs="#l55">Tre&sl;&sp;avant que tu fu&sl;&sl;e nee&virg;</l>
+               <l facs="#l56">Ain&sl;i le di&sl;t <persName ref="#SaintAugustin">&sl;aint &A;ugu&sl;tin</persName>&virg;</l>
+               <l facs="#l57">&D;e la <persName ref="#Trinite">&T;rinite</persName> ordennee&virg;</l>
+               <l facs="#l58">&P;our n&ostre; &sl;auvement donnee&virg;</l>
+               <l facs="#l59">&P;ure et parfaicte par de&sl;tin&virg;</l>
+               <l facs="#l60">&P;our n&ostre; <rs ref="#IsabeauBaviere">&R;oyne de &F;rance</rs></l>
+               <l facs="#l61">Te pry qu&ap;elle n&ap;ait ja &sl;ouffrance</l>
+               <l facs="#l62">&D;e paine infernal&virg; et lui donnes</l>
+               <l facs="#l63">&J;oye et paix et tiens en &sl;ouffrance</l>
+               <l facs="#l64">&L;ong temps ou monde&virg; apres l&ap;outrance</l>
+               <l facs="#l65">&D;e la mort de &sl;on ame ordonnes&pt;</l>
+            </lg>
+            <l facs="#l66">
+               <fw type="refrain" place="centred" rend="color:red">
+                  <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="6">
+               <l facs="#l67"><g ref="#pdm" rend="color:red">&pdm;</g>
+                  <rs ref="#ViergeMarie">Dame des angels</rs> tre&sl;&sp;courtoi&sl;e&virg;</l>
+               <l facs="#l68">Si com te&sl;moingne <persName ref="#SaintAmbroise">&sl;aint &A;mbroi&sl;e</persName>&virg;</l>
+               <l facs="#l69">Mirouer de toute vertu&virg;</l>
+               <l facs="#l70">&V;raye humilite qui la noi&sl;e</l>
+               <l facs="#l71">&D;&ap;orgueil rabat, et qui &r;aquoi&sl;e</l>
+               <l facs="#l72">&D;&ap;ire la force et la &v;ertu&virg;</l>
+               <l facs="#l73">&P;aix&virg; bonne vie &et;bonne fin</l>
+               <l facs="#l74">Donne a <rs ref="#LouisGuyenne">&M;on&slbar; le &D;aulphin</rs></l>
+               <l facs="#l75">Et &sl;cience pour gou&ver;ner</l>
+               <l facs="#l76">&L;e peuple qui de bon cuer fin</l>
+               <l facs="#l77">&L;&ap;ame et veulles qu&ap;a celle fin&virg;</l>
+               <l facs="#l78">Apres <rs ref="#CharlesVI">le pere</rs>&virg; il pui&sl;t regner&pt;</l>
+            </lg>
+            <l facs="#l79">
+               <fw type="refrain" place="centred" rend="color:red">
+                  <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="7">
+               <l facs="#l80"><g ref="#pdm" rend="color:blue">&pdm;</g>
+                  <rs ref="#ViergeMarie">Royne</rs> qui des maulx nous leve&virg;</l>
+               <l facs="#l81">&L;e&sl;quelx nous empetra <persName ref="#Eve">dame &E;ve</persName>&virg;</l>
+               <cb n="4"/>
+               <l facs="#l82">Si com <persName ref="#SaintAugustin">&sl;aint &A;ugu&sl;tin</persName> &r;aconte&virg;</l>
+               <l facs="#l83">Tu es celle qui n&ap;es pas teve</l>
+               <l facs="#l84">A nous expurgier de la ceve</l>
+               <l facs="#l85">&D;e pechie qui trop nous &sl;urmonte&ptvirg;</l>
+               <l facs="#l86">&P;our les <rs ref="#EnfantsRoi">enfans du <rs ref="#CharlesVI">roy</rs></rs> priere</l>
+               <l facs="#l87">Te fais&virg; <persName ref="#ViergeMarie">&V;ierge</persName> tre&sl;&sp;&sl;inguliere&virg;</l>
+               <l facs="#l88">Que tu leur donnes bonne vie&virg;</l>
+               <l facs="#l89">de vraye &sl;cience lumiere</l>
+               <l facs="#l90">Et paradis apres la biere&dpts;</l>
+               <l facs="#l91">En eulx &sl;oit ta grace a&sl;&sl;ouvie&excl;</l>
+            </lg>
+            <l facs="#l92">
+               <fw type="refrain" place="centred" rend="color:red">
+                  <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="8">
+               <l facs="#l93"><g ref="#pdm" rend="color:red">&pdm;</g> 
+                  Tre&sl;&sp;pure quon ne puet louer</l>
+               <l facs="#l94">Sonffi&sl;anment tant alouer&virg;</l>
+               <l facs="#l95">Si &sl;aiche nulz di&sl;t <persName ref="#SaintJerome">&sl;aint &J;erome</persName></l>
+               <l facs="#l96">&D;e doctine le parlouer</l>
+               <l facs="#l97">Et donne&sl;te le mirouer</l>
+               <l facs="#l98">&L;e pillier de foy et la co&sl;me&ptvirg;</l>
+               <l facs="#l99">&P;our le noble <persName ref="#LouisOrleans">duc d&ap;&O;rliens</persName>&virg;</l>
+               <l facs="#l100">Te pry que gardes des liens</l>
+               <l facs="#l101">&D;e l&ap;ennemy qui tou&sl;&j;ours veille&virg;</l>
+               <l facs="#l102">&P;rie <rs ref="#JesusChrist">ton &F;ilz</rs> que de tous biens</l>
+               <l facs="#l103">Il rempli&sl;&sl;e lui &et;les &sl;iens&virg;</l>
+               <l facs="#l104">Et l&ap;ame en paradis requeulle&pt;</l>
+            </lg>
+            <l facs="#l105">
+               <fw type="refrain" place="centred" rend="color:red">
+                  <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="9">
+               <l facs="#l106"><g ref="#pdm" rend="color:blue">&pdm;</g>
+                  <persName ref="#ViergeMarie">Vierge</persName>&virg; qui tous les pechiez dompte&virg;</l>
+               <l facs="#l107">&D;ont en &sl;on &sl;ermon nous &r;aconte</l>
+               <l facs="#l108"><persName ref="#SaintBernard">Saint &B;ernard</persName>&virg; qui dit &et;accorde</l>
+               <l facs="#l109">Que de toy louer advoit compt&acc;&virg;</l>
+               <l facs="#l110">Nul n&ap;est &sl;onffi&sl;ant &et;peu mont&acc;</l>
+               <l facs="#l111">Vers ta bonte quant qu&ap;on recorde</l>
+               <l facs="#l112">&P;our les <persName ref="#OnclesRoi">oncles du <rs ref="#CharlesVI">&R;oy</rs></persName> prier&virg;</l>
+               <l facs="#l113">&J;e&sp;te vueil &et;mercy crier</l>
+               <fw type="catch" place="bot-right" facs="#cw1">Que tu leur</fw>
+               <pb n="155r" facs="https://gallica.bnf.fr/ark:/12148/btv1b60001038/f313.item"/>
+               <cb n="5"/>
+               <l facs="#l114">Que tu leur donnes paradis&virg;</l>
+               <l facs="#l115">Le royaume en paix alier</l>
+               <l facs="#l116">Tout bien donner &sl;ans decrier</l>
+               <l facs="#l117">Sapience en fais et en dis&pt;</l>
+            </lg>
+            <l facs="#l118">
+               <fw type="refrain" place="centred" rend="color:red">
+                  <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="10">
+               <l facs="#l119"><g ref="#pdm" rend="color:red">&pdm;</g>
+                  <rs ref="#ViergeMarie">Tre&sl;oriere</rs>&virg; qui toutes pa&sl;&sl;e</l>
+               <l facs="#l120">&L;es fe&mm;es en qui &D;ieu mi&sl;t grace&virg;</l>
+               <l facs="#l121">Si com <persName ref="#SaintJerome">&sl;aint Jerome</persName> nous dit&virg;</l>
+               <l facs="#l122">&D;e &sl;apience la grant ma&sl;&sl;e</l>
+               <l facs="#l123">Et celle qui noz maulx efface&virg;</l>
+               <l facs="#l124">Et que <persName ref="#Dieu">&D;ieu</persName> point ne contredit&ptvirg;</l>
+               <l facs="#l125">Tous les nobles royaulx enfans</l>
+               <l facs="#l126">&D;e mal et de pechie deffens&virg;</l>
+               <l facs="#l127">Filz&virg; filles&virg; dames&virg; damoi&sl;elles&virg;</l>
+               <l facs="#l128">Le las de l&ap;ennemy pourfens</l>
+               <l facs="#l129">Si qu&ap;il ne leur pui&sl;t faire offens</l>
+               <l facs="#l130">Na ceulx qui &sl;ont o eulx nacelles&pt;</l>
+            </lg>
+            <l facs="#l131">
+               <fw type="refrain" place="centred" rend="color:red">
+                  <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="11">
+               <l facs="#l132"><g ref="#pdm" rend="color:blue">&pdm;</g>
+                  <rs ref="#ViergeMarie">Dame de qui humain lignage</rs></l>
+               <l facs="#l133">Ne &sl;e puet en ce monde umbrage</l>
+               <l facs="#l134">&P;a&sl;&sl;er&virg; ce dit <persName ref="#Cassiodore">&C;a&sl;&sl;idoire</persName>&virg;</l>
+               <l facs="#l135">Leur patrone&virg; leur nef&virg; leur barge</l>
+               <l facs="#l136">Qui le conduit adroit &r;ivage</l>
+               <l facs="#l137">Ou temps pa&sl;&sl;e&virg; &et;ou temps dore&virg;</l>
+               <l facs="#l138">Et pour 
+                  <persName ref="#CharlesAlbret" xml:id="Albret" next="#Charles">d&ap;&A;lebret</persName> le bon 
+                  <persName ref="#CharlesAlbret" xml:id="Charles" prev="#Albret">&C;harles</persName></l>
+               <l facs="#l139">Te &sl;uppli qu&ap;a <rs ref="#JesusChrist">ton doulz &F;ilz</rs> parles&virg;</l>
+               <l facs="#l140">Et pour tout le bon &sl;ang &r;oyal&virg;</l>
+               <l facs="#l141">Soient en fe&mm;elles ou ma&sl;les&virg;</l>
+               <l facs="#l142">&D;effens des paines infernales</l>
+               <l facs="#l143">Et qui l&ap;aime de cuer loyal&pt;</l>
+            </lg>
+            <l facs="#l144">
+               <fw type="refrain" place="centred" rend="color:red">
+                  <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="12">
+               <l facs="#l145"><g ref="#pdm" rend="color:red">&pdm;</g>
+                  <rs ref="#ViergeMarie" xml:id="fontaine1" next="#fontaine2">Fontaine plaine de pitie&virg;</rs></l>
+               <cb n="6"/>
+               <l facs="#l146"><rs ref="#ViergeMarie" xml:id="fontaine2" prev="#fontaine1">&D;e grace et de toute ami&sl;tie</rs>&virg;</l>
+               <l facs="#l147">&D;i&sl;t <persName ref="#SaintBernard">&sl;aint &B;ernard</persName> en &sl;on &sl;ermon&virg;</l>
+               <l facs="#l148">Commune a tous&virg; bien exploicti&acc;&virg;</l>
+               <l facs="#l149">A qui de toy &sl;&ap;e&sl;t accointi&acc;&virg;</l>
+               <l facs="#l150">Car de pechie &r;omps le lymon&virg;</l>
+               <l facs="#l151">&J;e te pri m&ap;oroi&sl;on recois&ptvirg;</l>
+               <l facs="#l152">Et le <placeName ref="#France">royaume des &F;rancoys</placeName></l>
+               <l facs="#l153">&D;e mal et de peril tu gardes&virg;</l>
+               <l facs="#l154">Et d&ap;ennemis&virg; &sl;e l&ap;appercois&virg;</l>
+               <l facs="#l155">&D;e guerre &et;de contens ancois</l>
+               <l facs="#l156">Que tes loyaux amis y perdes&pt;</l>
+            </lg>
+            <l facs="#l157">
+               <fw type="refrain" place="centred" rend="color:red">
+                  <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="13">
+               <l facs="#l158"><g ref="#pdm" rend="color:blue">&pdm;</g>
+                  O <rs ref="#ViergeMarie">lumiere cele&sl;tielle</rs>&virg;</l>
+               <l facs="#l159">&D;e nous conduire la droicte ele&virg;</l>
+               <l facs="#l160">Si &com;me dit <persName ref="#SaintAnsiaume">&sl;aint &A;nsiaume</persName>&virg;</l>
+               <l facs="#l161">Qui tant portas doulour cruelle</l>
+               <l facs="#l162">A la mort <rs ref="#JesusChrist">ton &F;ilz</rs> qui t&ap;appelle</l>
+               <l facs="#l163">Tu lui es deffen&sl;e &et;heaume&dpts;</l>
+               <l facs="#l164">Pour la noble chevaliere</l>
+               <l facs="#l165">&D;e <placeName ref="#France">&F;rance</placeName> &Ij;e te pry&virg; <persName ref="#ViergeMarie">&M;arie</persName>&virg;</l>
+               <l facs="#l166">Et pour tous nobles en&sl;ement</l>
+               <l facs="#l167">Leur ame Ja ne &sl;oit perie&virg;</l>
+               <l facs="#l168">Par toy et par eulx &sl;oit garie</l>
+               <l facs="#l169"><placeName ref="#France">France</placeName> de malz &et;de tourment&pt;</l>
+            </lg>
+            <l facs="#l170">
+               <fw type="refrain" place="centred" rend="color:red">
+               <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="14">
+               <l facs="#l171"><g ref="#pdm" rend="color:red">&pdm;</g>
+                  O <rs ref="#ViergeMarie">engendrere&sl;&sl;e de vie</rs>&virg;</l>
+               <l facs="#l172">Et de <persName ref="#Dieu">&D;ieu</persName> e&sl;pou&sl;e et pleuvie&virg;</l>
+               <l facs="#l173">&D;e toy <persName ref="#SaintBernard">&sl;aint &B;ernard</persName> le recorde&virg;</l>
+               <l facs="#l174">En corps et en ame ravie</l>
+               <l facs="#l175">Ou hault ciel en gloire a&sl;&sl;ouvie&virg;</l>
+               <l facs="#l176"><rs ref="#ViergeMarie">Fontaine de mi&sl;ericorde</rs></l>
+               <l facs="#l177">Pour le clergie et les bourgoys&virg;</l>
+               <pb n="155v" facs="https://gallica.bnf.fr/ark:/12148/btv1b60001038/f314.item"/>
+               <cb n="7"/>
+               <l facs="#l178"><rs ref="#ViergeMarie">Dame</rs>&virg; priere &Ij;e te fois&virg;</l>
+               <l facs="#l179">Et pour marchans &et;pour &com;mun&virg;</l>
+               <l facs="#l180">Prie <rs ref="#JesusChrist">cil qui mouru en croix</rs></l>
+               <l facs="#l181">Que aux ames leur &sl;ont courtois&virg;</l>
+               <l facs="#l182">Et tout bien &sl;oit entre eulx &com;mun&pt;</l>
+            </lg>
+            <l facs="#l183">
+               <fw type="refrain" place="centred" rend="color:red">
+               <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="15">
+               <l facs="#l184"><g ref="#pdm" rend="color:blue">&pdm;</g>
+                  <rs ref="#ViergeMarie">Dame</rs>&virg; de grace la droite ente</l>
+               <l facs="#l185">Qui devant <persName ref="#Dieu">&D;ieu</persName> nous &r;e&pre;&sl;ente&virg;</l>
+               <l facs="#l186">Et te te&sl;moingne <persName ref="#SaintBernard">&sl;aint &B;ernard</persName>&virg;</l>
+               <l facs="#l187">No&sl;tre moyen et n&ostre; &sl;ente&virg;</l>
+               <l facs="#l188">No&sl;tre e&sl;cu quant pechie nous tente&virg;</l>
+               <l facs="#l189">Qui pour nous pries main &et;tart&virg;</l>
+               <l facs="#l190">Pour tous les laboureurs de terre&virg;</l>
+               <l facs="#l191">Te pry que leur veulles acquerre</l>
+               <l facs="#l192">Sauvement&virg; &et;leur donnes grace</l>
+               <l facs="#l193">Que tel labour pui&sl;&sl;ent pourquerre&virg;</l>
+               <l facs="#l194">&D;ont <persName ref="#Dieu">&D;ieu</persName> &sl;ont &sl;ervi en tout erre</l>
+               <l facs="#l195">Et toute la terre en &sl;oit gra&sl;&sl;e&pt;</l>
+            </lg>
+            <l facs="#l196">
+               <fw type="refrain" place="centred" rend="color:red">
+               <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="16">
+               <l facs="#l197"><g ref="#pdm" rend="color:red">&pdm;</g>
+                  <rs ref="#ViergeMarie">Coulombe &sl;imple&virg; &sl;ade &et;blanche</rs>&virg;</l>
+               <l facs="#l198">&D;e pechie monde pure &et;franche&virg;</l>
+               <l facs="#l199">Si &com;me <rs ref="#JesusChrist">ton &F;ilz</rs> t&ap;appella&virg;</l>
+               <l facs="#l200">Quant de la mort pa&sl;&sl;as la planche</l>
+               <l facs="#l201">Et entre &sl;es bras &com;me branche</l>
+               <l facs="#l202">Ou ciel te porta&virg; pour cella</l>
+               <l facs="#l203">Te pry pour tous les tre&sl;pa&sl;&sl;ez</l>
+               <l facs="#l204">de &P;urgatoire&virg; qu&ap;effac&acc;s</l>
+               <l facs="#l205">Soit de leurs pechiez le renom&ptvirg;</l>
+               <l facs="#l206">Si &sl;oient en gloire pa&sl;&sl;ez</l>
+               <l facs="#l207">Et de <rs ref="#JesusChrist">ton &F;ilz</rs> &sl;ont embrac&acc;s</l>
+               <l facs="#l208">L&ap;e&sl;perit <persName ref="#CharlesV">&C;harles&virg; &R;oy quint du nom</persName>&pt;</l>
+            </lg>
+            <l facs="#l209">
+               <fw type="refrain" place="centred" rend="color:red">
+               <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <cb n="8"/>
+            <lg type="stanza" n="17">
+               <l facs="#l210"><persName ref="#Vierge">Vierge</persName>&virg; mere de 
+                  <persName ref="#JesusChrist">&D;ieu</persName> ancelle&virg;</l>
+               <l facs="#l211">&D;e la &T;rinite temple &et;&sl;elle&virg;</l>
+               <l facs="#l212"><persName ref="#SaintJerome">Saint Jerome</persName> en fait mention&virg;</l>
+               <l facs="#l213">Apres l&ap;enfantement pucelle&virg;</l>
+               <l facs="#l214">Sur toutes fe&mm;es tu es celle</l>
+               <l facs="#l215">Qui de grace eus prevancion&dpts;</l>
+               <l facs="#l216">Pour le devot &sl;exe des fe&mm;es</l>
+               <l facs="#l217">Te pry que leurs corps &et;leurs ames</l>
+               <l facs="#l218">Tu ayes en ta &sl;aincte garde&virg;</l>
+               <l facs="#l219">Soient damoi&sl;elles ou dames</l>
+               <l facs="#l220">Ou autres, gard les de diffames</l>
+               <l facs="#l221">Et que feu d&ap;enfer ne les arde&pt;</l>
+            </lg>
+            <l facs="#l222">
+               <fw type="refrain" place="centred" rend="color:red">
+               <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
+               </fw>
+            </l>
+
+            <lg type="stanza" n="18">
+               <l facs="#l223"><g ref="#pdm" rend="color:red">&pdm;</g>
+                  <persName ref="#ViergeMarie">Vierge</persName>&virg; pure par les fontaines&virg;</l>
+               <l facs="#l224">&D;e tes cha&sl;tes yeux et les paines</l>
+               <l facs="#l225">Qu&ap;a <rs ref="#JesusChrist">ton &F;ilz</rs> veis en la croix&virg;</l>
+               <l facs="#l226">&D;i&sl;t <persName ref="#SaintAnsiaume">&sl;aint &A;m&sl;iaume</persName>&virg; &et;les vaines</l>
+               <l facs="#l227">&D;e &sl;on corps qui pendoit en aines</l>
+               <l facs="#l228">Ouvertes&virg; te pry&virg; oy ma voix&virg;</l>
+               <l facs="#l229">Et a <rs ref="#JesusChrist">ton &F;ilz</rs>&virg; qui fu mort mis</l>
+               <l facs="#l230">Pour moy et pour tous mes amis</l>
+               <l facs="#l231">Il te plaise a faire priere&ptvirg;</l>
+               <l facs="#l232">Et la gloire qu&ap;il a promis</l>
+               <l facs="#l233">A ceulx qui ont pechie &r;emis&virg;</l>
+               <l facs="#l234">Nous octroit &et;grace pleniere&pt;</l>
+            </lg>
+            <l facs="#l235">
+               <fw place="centred">
+               <foreign xml:lang="la">Amen</foreign>
+               </fw>
+            </l>
+         </lg>
+      </body>
+   </text>
+</TEI>

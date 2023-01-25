@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Abréviations -->
+<!ENTITY chrestp "<choice><abbr>xp&#773;</abbr><expan>chrestp</expan></choice>" >
+<!ENTITY com "<choice><abbr>co&#865;</abbr><expan>com</expan></choice>" >
+<!ENTITY et "<choice><abbr>&#8266;</abbr><expan>et </expan></choice>" >
+<!ENTITY mm "<choice><abbr>m&#785;</abbr><expan>mm</expan></choice>" >
+<!ENTITY ostre "<choice><abbr>re&#865;</abbr><expan>ostre</expan></choice>" >
+<!ENTITY pre "<choice><abbr>p&#785;</abbr><expan>pre</expan></choice>" >
+<!ENTITY slbar "<choice><abbr>&#59576;</abbr><expan>sieur</expan></choice>" >
+<!ENTITY ter "<choice><abbr>t&#770;</abbr><expan>ter</expan></choice>" >
+<!ENTITY ver "<choice><abbr>v&#770;</abbr><expan>ver</expan></choice>" >
+
+<!--  Ponctuation -->
+<!ENTITY virg "<choice><orig></orig><reg>,</reg></choice>" >
+<!ENTITY ptvirg "<choice><orig></orig><reg> ;</reg></choice>" >
+<!ENTITY ap "<choice><orig></orig><reg>’</reg></choice>" >
+<!ENTITY excl "<choice><orig></orig><reg> !</reg></choice>" >
+<!ENTITY dpts "<choice><orig></orig><reg> :</reg></choice>" >
+<!ENTITY pt "<choice><orig></orig><reg>.</reg></choice>" >
+<!ENTITY sp "<choice><orig></orig><reg> </reg></choice>" >
+<!ENTITY pdm "&#182;" >
+
+<!--  Majuscules/minuscules et accents -->
+<!ENTITY A "<choice><orig>a</orig><reg>A</reg></choice>" >
+<!ENTITY B "<choice><orig>b</orig><reg>B</reg></choice>" >
+<!ENTITY C "<choice><orig>c</orig><reg>C</reg></choice>" >
+<!ENTITY D "<choice><orig>d</orig><reg>D</reg></choice>" >
+<!ENTITY E "<choice><orig>e</orig><reg>E</reg></choice>" >
+<!ENTITY F "<choice><orig>f</orig><reg>F</reg></choice>" >
+<!ENTITY i "<choice><orig>I</orig><reg>i</reg></choice>" >
+<!ENTITY Ij "<choice><orig>I</orig><reg>j</reg></choice>" >
+<!ENTITY j "<choice><orig>i</orig><reg>j</reg></choice>" >
+<!ENTITY J "<choice><orig>I</orig><reg>J</reg></choice>" >
+<!ENTITY L "<choice><orig>l</orig><reg>L</reg></choice>" >
+<!ENTITY M "<choice><orig>m</orig><reg>M</reg></choice>" >
+<!ENTITY N "<choice><orig>n</orig><reg>N</reg></choice>" >
+<!ENTITY O "<choice><orig>o</orig><reg>O</reg></choice>" >
+<!ENTITY P "<choice><orig>p</orig><reg>P</reg></choice>" >
+<!ENTITY r "<choice><orig>R</orig><reg>r</reg></choice>" >
+<!ENTITY R "<choice><orig>r</orig><reg>R</reg></choice>" >
+<!ENTITY s "<choice><orig>S</orig><reg>s</reg></choice>" >
+<!ENTITY sl "<choice><orig>&#383;</orig><reg>s</reg></choice>" >
+<!ENTITY T "<choice><orig>t</orig><reg>T</reg></choice>" >
+<!ENTITY v "<choice><orig>u</orig><reg>v</reg></choice>" >
+<!ENTITY V "<choice><orig>u</orig><reg>V</reg></choice>" >
+<!ENTITY acc "<choice><orig>e</orig><reg>é</reg></choice>" >
