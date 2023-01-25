@@ -34,14 +34,23 @@
                Guide d'encodage de l'"Oraison à Notre Dame", extraite du <hi rend="italic">Livre de Christine</hi>,
                manuscrit Français 12779 de la Bibliothèque nationale de France
             </head>
-            <p>Cette documentation a pour objectif de détailler la manière dont a été encodée
-               l'"Oraison à Notre Dame" de Christine de Pizan. Un encodage strict a été réalisé afin
-               de produire un document interopérable et exploitable scientifiquement.</p>
-            <p>Cet encodage met l'accent sur les aspects paléographiques du document source, en vue
-               de la création d'un fac-similé interactif qui permettrait la consultation du document
-               originel en parallèle de sa transcription, modernisée ou non.</p>
+            <p>Ce projet est une proposition d'encodage d'un texte poétique extrait du 
+               <hi rend="italic">Livre de Christine</hi>, conservé à la Bibliothèque nationale de France
+               (Français 12779) : l'"Oraison à Notre-Dame" prend la forme d'une prière adressée à la Vierge 
+               par Christine de Pizan. Dans ce texte en vers, l'autrice prie pour la protection du roi et 
+               du royaume de France. En pleine Guerre de Cent Ans, Christine de Pizan implore pour la protection
+               de la famille du roi ; pour la reine, le dauphin, les oncles du roi et ses enfant, ainsi que
+               pour le peuple français, et particulièrement pour les femmes.</p>
+            <p>Cette oraison à la Vierge est riche de références aux Pères de l'Église dont les écrits ont
+               porté sur la Vierge, et offre ainsi un regard sur son culte à travers l'histoire religieuse.</p>
+            <p>Cette documentation a pour objectif de détailler la manière dont a été encodée le texte.
+               Un encodage strict a été réalisé afin de produire un document interopérable 
+               et exploitable scientifiquement. Le manuscrit étant autographe, l'encodage met l'accent 
+               sur les aspects paléographiques du document source, qui témoignent de choix faits par 
+               Christine de Pizan elle-même, en vue de la création d'un fac-similé interactif qui 
+               permettrait la consultation du document original en parallèle de sa transcription.</p>
             <p>Ainsi, ce schéma a été pensé autour de cet objectif, en prenant en compte la
-               structuration de l'œuvre originelle. Cet encodage propose également de mettre en
+               structuration de l'œuvre originelle. Cet encodage propose de mettre en
                avant les données qui permettraient de porter une réflexion autour de la pensée
                religieuse de Christine de Pizan, de sa position dans l'entourage du roi Charles VI,
                ainsi que de l'histoire du culte de la Vierge.</p>
@@ -473,11 +482,14 @@
                      permet de désiner des chaînes de référence qui ne sont pas des noms propres.
                      Ces balises <gi>rs</gi> ont également un attribut <att>ref</att> ayant pour
                      valeur un identifiant déclaré. Par exemple, ces balises sont utilisées pour les
-                     mentions du Christ en tant que fils de la Vierge, à qui est adressé le texte :
+                     mentions du Christ en tant que fils de la Vierge, à qui est adressé le texte :</p>
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                         <rs ref="#JesusChrist">ton Filz</rs>
                      </egXML>
-                  </p>
+                  <p>Cet encodage sémantique des noms et mentions de personnes a pour vocation de permettre, 
+                     notamment, une extraction des mentions de la Vierge et des métaphores utilisées par 
+                     Christine de Pizan pour l'invoquer dans son oraison, qui permettrait d'analyser le champ
+                     lexical lié à son culte.</p>
                </div3>
             </div2>
          </div1>
