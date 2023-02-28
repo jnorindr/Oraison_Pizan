@@ -756,7 +756,7 @@
          <zone xml:id="l177" ulx="492" uly="920" lrx="740" lry="939"/>
       </surface>
       <surface>
-         <graphic url="img/Oraison_154v" width="1023px" height="1290px"/>
+         <graphic url="img/Oraison_155v" width="1023px" height="1290px"/>
          <zone xml:id="l178" ulx="244" uly="223" lrx="415" lry="236"/>
          <zone xml:id="l179" ulx="249" uly="246" lrx="504" lry="258"/>
          <zone xml:id="l180" ulx="246" uly="266" lrx="467" lry="286"/>
@@ -854,34 +854,34 @@
                <l facs="#l19">&D;evers <persName ref="#Dieu">&D;ieu</persName> priant qu&ap;il n&ap;e&sl;loingne</l>
                <l facs="#l20">&D;e nous &sl;a grace pure et fine&virg;</l>
                <l facs="#l21">&P;our &sl;aincte &E;gli&sl;e requerir</l>
-               <l facs="#l23">Ce vueil qu&ap;il te plai&sl;e acquerir</l>
-               <l facs="#l24">&P;aix et vraye tran&sl;quillite&virg;</l>
-               <l facs="#l25">Et &sl;i bon pastour nous querir</l>
-               <l facs="#l26">Qui tous nous face a <persName ref="#Dieu">&D;ieu</persName> courir</l>
-               <l facs="#l27">En foy et en humilite&pt;</l>
+               <l facs="#l22">Ce vueil qu&ap;il te plai&sl;e acquerir</l>
+               <l facs="#l23">&P;aix et vraye tran&sl;quillite&virg;</l>
+               <l facs="#l24">Et &sl;i bon pastour nous querir</l>
+               <l facs="#l25">Qui tous nous face a <persName ref="#Dieu">&D;ieu</persName> courir</l>
+               <l facs="#l26">En foy et en humilite&pt;</l>
             </lg>
-            <l facs="#l28">
+            <l facs="#l27">
                <fw type="refrain" place="centred" rend="color:red">
                   <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
                </fw>
             </l>
 
             <lg type="stanza" n="3">
-               <l facs="#l29"><g ref="#pdm" rend="color:blue">&pdm;</g>
+               <l facs="#l28"><g ref="#pdm" rend="color:blue">&pdm;</g>
                   <persName ref="#ViergeMarie">Vierge</persName> &sl;acree&virg; pure et ferme&virg;</l>
-               <l facs="#l30">Si com <persName ref="#SaintBernard">&sl;aint &B;ernart</persName> nous afferme</l>
-               <l facs="#l31">En son &sl;aint &sl;ermon de l&ap;&A;dvent&virg;</l>
-               <l facs="#l32">Celle qui en foy nous conferme</l>
-               <l facs="#l33">Et en purte&virg; &et;nous defferme</l>
-               <l facs="#l34">&L;e ciel&virg; &sl;i &com;me il fu convent&virg;</l>
-               <l facs="#l35">&J;e te pry pour tous les prelas</l>
-               <l facs="#l36">&D;e &sl;aincte &E;gli&sl;e que des las</l>
-               <l facs="#l37">&D;e l&ap;ennemy tu les deffendes&virg;</l>
-               <l facs="#l38">Cures &et;pre&sl;tres leur &sl;onlas</l>
-               <l facs="#l39">Soit en bien faire et Jamais las</l>
-               <l facs="#l40">N&ap;en &sl;oient et quen ciel les &r;endes&pt;</l>
+               <l facs="#l29">Si com <persName ref="#SaintBernard">&sl;aint &B;ernart</persName> nous afferme</l>
+               <l facs="#l30">En son &sl;aint &sl;ermon de l&ap;&A;dvent&virg;</l>
+               <l facs="#l31">Celle qui en foy nous conferme</l>
+               <l facs="#l32">Et en purte&virg; &et;nous defferme</l>
+               <l facs="#l33">&L;e ciel&virg; &sl;i &com;me il fu convent&virg;</l>
+               <l facs="#l34">&J;e te pry pour tous les prelas</l>
+               <l facs="#l35">&D;e &sl;aincte &E;gli&sl;e que des las</l>
+               <l facs="#l36">&D;e l&ap;ennemy tu les deffendes&virg;</l>
+               <l facs="#l37">Cures &et;pre&sl;tres leur &sl;onlas</l>
+               <l facs="#l38">Soit en bien faire et Jamais las</l>
+               <l facs="#l39">N&ap;en &sl;oient et quen ciel les &r;endes&pt;</l>
             </lg>
-            <l facs="#l41">
+            <l facs="#l40">
                <fw type="refrain" place="centred" rend="color:red">
                <foreign xml:lang="la">Ave <persName ref="#ViergeMarie">&M;aria</persName></foreign>
                </fw>
