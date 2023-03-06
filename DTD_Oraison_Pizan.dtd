@@ -32,6 +32,7 @@
 <!ENTITY Ij "<choice><orig>I</orig><reg>j</reg></choice>" >
 <!ENTITY j "<choice><orig>i</orig><reg>j</reg></choice>" >
 <!ENTITY J "<choice><orig>I</orig><reg>J</reg></choice>" >
+<!ENTITY Jj "<choice><orig>J</orig><reg>j</reg></choice>" >
 <!ENTITY L "<choice><orig>l</orig><reg>L</reg></choice>" >
 <!ENTITY M "<choice><orig>m</orig><reg>M</reg></choice>" >
 <!ENTITY N "<choice><orig>n</orig><reg>N</reg></choice>" >
