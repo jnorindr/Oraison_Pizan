@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+/* Chemin vers les fonts */
+@font-face {
+  font-family : 'Junicode';
+  src : url('../fonts/junicode/Junicode.ttf')
+}
+
+@font-face {
+  font-family : 'Abril Fatface';
+  src : url('../fonts/abril-fatface/AbrilFatface-Regular.ttf')
+}
+
+@font-face {
+  font-family : 'Raleway';
+  src : url('../fonts/raleway/Raleway-Regular.ttf')
+}
+
+/* Corps de la page */
+body {
+  background-color: #FCFCF9;
+  font-family: 'Raleway';
+  color: #313336;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5 {
+  font-family: 'Abril Fatface';
+  color: #2A241D;
+}
+
+/* Liens */
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #9C9C9C;
+}
+
+/* Barre de navigation */
+nav {
+  padding-left: 4% !important;
+  border-bottom: 1px solid #DCDEE0;
+}
+
+/* Bouton de retour en haut de la page */
+#bouton_retour {
+  position: fixed;
+  display: none;
+  bottom: 60px;
+  right: 30px;
+  border-radius: 50% !important;
+  background-color: #9C9C9C;
+}
+
+/* Pied de page */
+footer {
+  border-top: 1px solid #DCDEE0;
+  font-size: 0.8em !important;
+}
+
+/* PAGE D'ACCUEIL */
+/* Image en bannière */
+#banniere {
+  height: 370px;
+  position: relative;
+  background-image: url("../img/banniere.jpg");
+  background-size: 120%;
+  background-position: top -100px left -30px;
+}
+
+/* Titre */
+#titre {
+  position: absolute;
+  top: 45%;
+  left: 23%;
+  font-size: 4.2em;
+  color: #FCFCF9;
+  text-shadow: 1px 1px 2px #0E1116;
+}
+
+/* Texte sur la bannière */
+.texte_ban {
+  position: absolute;
+  top: 70%;
+  left: 14%;
+  width: 72%;
+  padding : 10px 30px;
+  background-color: rgba(0,0,0,.4);
+  color: #FCFCF9;
+  font-size: 1.1em;
+}
+
+/* Texte de présentation du projet */
+.about {
+  background-color: #6D759E;
+  color: #FCFCF9;
+  font-size: 0.9em;
+}
+
+/* NOTICE */
+/* Notice du manuscrit */
+.cadre {
+  border: 1px solid #6D759E;
+  padding : 20px;
+}
+
+/* Paragraphes dans la notice */
+#notice p {
+  margin-bottom: 6px;
+}
+
+/* Bouton pour dérouler la bibliographie */
+.biblio {
+  cursor: pointer;
+  background-color: #eee;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #313336;
+  text-align: left;
+}
+
+.active, .biblio:hover {
+ background-color: #9C9C9C;
+}
+
+/* Corps de la bibliographie */
+.contenu_biblio {
+ padding: 20px;
+ display: none;
+ overflow: hidden;
+ background-color: #f1f1f1;
+}
+
+/* Entrées de la bibliographie */
+ol li {
+  margin-left: 20px;
+  font-size: 0.9em;
+  line-height: 160%;
+}
+
+/* TRANSCRIPTION */
+/* Police de la transcription (prend en charge abréviations + caractères spéciaux) */
+.transc {
+    font-family : 'Junicode' !important;
+}
+
+/* Texte en rouge dans la transcription et le fac-similé */
+.rouge {
+  color: #AD2E24;
+}
+
+/* Texte en bleu dans la transcription et le fac-similé */
+.bleu {
+  color: #3E2B87;
+}
+
+/* Apparence et position des refrains dans la transcription */
+.avemaria {
+  color: #AD2E24;
+  display: table;
+  margin: 0 5% 0 5%;
+}
+
+/* Apparence et position du Amen dans la transcription */
+.amen {
+  display: table;
+  margin: 0 5% 0 20%;
+}
+
+.num_ligne {
+  position: absolute;
+  margin-left: -40px;
+  font-family: 'Raleway';
+  color: #9C9C9C;
+  font-size: 0.8em;
+}
+
+/* Soulignement des noms de personne */
+.name {
+  border-bottom:1px dotted #313336;
+}
+
+/* FAC-SIMILÉ */
+/* Image de fond des fac-similés interactifs */
+.img_facsim {
+  position: relative;
+}
+
+/* Zone du manuscrit survolée */
+.bulle_facsim {
+  position: absolute;
+}
+
+/* Texte transcrit apparaissant au survolage de la zone */
+div.bulle_facsim div {
+  background-color:#fff;
+  font-family : 'Junicode' !important;
+  visibility: hidden;
+  position:relative;
+  top:25px;
+  left:20px;
+  padding: 5px;
+}
+
+div.bulle_facsim:hover div {
+  visibility: visible;
+}
+
+/* Couleur des résolutions d'abréviations */
+.abb {
+  color: #568203;
+}
+
+/* INDEX */
+/* Liste des mentions dans le texte */
+
+.index {
+  font-family: 'Junicode';
+  background-color: #eee;
+  padding: 15px;
+}

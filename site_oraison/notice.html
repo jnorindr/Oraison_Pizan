@@ -1,0 +1,379 @@
+<!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <title>Une Oraison à Notre Dame</title>
+      <meta name="author" content="Jade Norindr">
+      <meta name="description" content="Édition numérique de l'Oraison à Notre Dame de Christine de Pizan tirée du manuscrit français 12779 de la Bibliothèque nationale de France">
+      <meta name="keywords" content="XSLT,XML,TEI,Pizan">
+      <link rel="icon" type="image/jpg" href="../img/favicon.jpg">
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-md navbar-light bg-light"><a class="navbar-brand" href="home.html">Accueil</a><ul class="navbar-nav mr-auto">
+               <li class="nav-item"><a class="nav-link" href="notice.html">Notice</a></li>
+               <li class="nav-item"><a class="nav-link" href="transcription.html">Transcription</a></li>
+               <li class="nav-item"><a class="nav-link" href="facsimile.html">Fac-similé</a></li>
+               <li class="nav-item"><a class="nav-link" href="index.html">Index</a></li>
+            </ul>
+         </nav>
+      </header><button type="button" class="btn" id="bouton_retour"><img src="../img/caret-up-fill.svg" alt="Flèche" width="15" height="25"></button><main class="container-fluid">
+         <h2 class="ml-4 offset-md-2 mt-4">Christine de Pizan, Le livre de Christine (1402-1405)</h2>
+         <div class="row">
+            <div class="col-md-8 offset-md-2 mt-2 mb-3 cadre">
+               <p><b>Bibliothèque nationale de France, Département des manuscrits</b><br><b>Cote : </b>Français 12779<br>Supplément français 6259 (Ancienne cote)<br>Mouchet 6 (Ancienne cote)<br><a href="https://gallica.bnf.fr/ark:/12148/btv1b60001038">
+                     Voir le manuscrit sur Gallica
+                     </a> - 
+                  <a href="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc13026h">
+                     Voir la notice sur BnF Archives et manuscrits
+                     </a></p>
+               <hr>
+               <h5>Sommaire</h5>
+               <ul>
+                  <li>Cent balades (ff. 1a - 21d)</li>
+                  <li>Virelays (ff. 21bis - 24c)</li>
+                  <li>Les balades d'estrange façon (ff. 24c - 25b)</li>
+                  <li>Ballades de divers propos (ff. 25b - 32d)</li>
+                  <li>Complainte amoureuse II (ff. 33a - 34d)</li>
+                  <li>Lays (ff. 37a - 39a)</li>
+                  <li>Rondeaux (ff. 39b - 45b)</li>
+                  <li>Jeux a vendre (ff. 45c - 48d)</li>
+                  <li>Débat de deux amants (ff. 50a - 65b)</li>
+                  <li>Epistre au dieu d'Amours (ff. 65c - 71d)</li>
+                  <li>Dit de la Rose (ff. 72a - 77a)</li>
+                  <li>Livre des trois jugements (ff. 77c - 89c)</li>
+                  <li>Dit de Poissy (ff. 90a - 106b)</li>
+                  <li>Epître d'Othéa (ff. 106c - 141b)</li>
+                  <li>Epîtres sur le Roman de la Rose (ff. 141c - 149a)</li>
+                  <li>Enseignement à son fils (ff. 149c - 153d)</li>
+                  <li><b>Oraison Notre Dame</b> (ff. 154a - 155d)</li>
+                  <li>Les quinze joies de Notre Dame (ff. 156a - 156c)</li>
+                  <li>Dit de la Pastoure (ff. 157a - 174d)</li>
+               </ul>
+               <hr>
+               <h5>Description matérielle</h5>
+               <p><u>Parchemin et papier :</u> 172 feuillets et 6 feuillets de papiers. Cahiers: un cahier de
+                  deux feuillets (ff. 1-2) suivi d'un cahier de 6 feuillets (ff. 3-8), de 3
+                  cahiers de 8 feuillets (ff. 9-31), d'un cahier de 6 feuillets
+                  (c'est-à-dire 8-2, ff. 32-39), d'un cahier de 8 feuillets (ff. 40-47),
+                  d'un cahier de 7 feuillets (c'est-à-dire 8-1, ff. 48-55), de 6 cahiers de
+                  8 feuillets (ff. 56-103), d'un cahier de 5 feuillets (c'est-à-dire 8-3,
+                  ff. 104-108), d'un cahier de 6 feuillets (c'est-à-dire 8-2, ff.109-114),
+                  de 5 cahiers de 8 feuillets (ff. 115-154), d'un cahier de 2 feuillets
+                  (c'est-à-dire 4-2, ff. 155-156), de 2 cahiers de 8 feuillets (ff.
+                  157-172) et d'un cahier de deux feuillets (ff. 173-174).</p>
+               <p>Réglure à la mine de plomb.</p>
+               <p>Une seule main pour le texte, les corrections et les rubriques. Ecriture cursive livresque à l'encre brune. Les rubriques sont
+                  écrites à l'encre rouge. Pieds-de-mouche au début de chaque strophe peints
+                  alternativement en bleu et rouge.</p>
+               <p><u>Décor :</u> Neuf miniatures de la largeur d'une colonne aux
+                  feuillets 1, 90v, 106v, 107v, 108, 149v, 154, 157. Réalisées par le
+                  Maître de la Pastoure et le Maître de
+                  Jeanne Ravenelle.<br>Lettrines attribuables au filigraneur « aux
+                  lys losangés ».</p>
+               <p><u>Reliure :</u> Reliure veau marbré au chiffre de Louis-Philippe. Deux pièces de
+                  titre au dos de peau noire : « Collection Mouchet » et « Poésies de
+                  Christine de Pisan ».<br></p>
+               <hr>
+               <h5>Historique</h5>
+               <p>Copié en 1402, Dit de la Pastoure ajouté en 1403 (Ouy et al., 2012).</p>
+               <p>Provient de la bibliothèque de Jean-Baptiste La Curne de Sainte-Palaye. Ce
+                  recueil est ensuite échangé avec le marquis de Paulmy (Delisle, 1886), 
+                  avant de rentrer dans la bibliothèque de G.J. Mouchet. Le manuscrit est acquis par
+                  la Bibliothèque
+                  Royale ou Impériale en 1807. Estampille correspondant au n° 21 bis de
+                  Josserand-Bruno.</p>
+               <hr><button type="button" class="biblio">Bibliographie</button><ol class="contenu_biblio">
+                  <li>
+                     <p>Léopold Delisle, 
+                        <i>Le cabinet des manuscrits de la Bibliothèque impériale;
+                           étude sur la formation de ce dépôt comprenant les éléments d'une histoire
+                           de la calligraphie de la miniature, de la reliure, et du commerce des
+                           livres à Paris avant l'invention de l'imprimerie</i>,  
+                        Paris : Imprimerie impériale,
+                        1868-1881, 
+                        1, 
+                        2, 
+                        p. 557-575, p. 282.</p>
+                  </li>
+                  <li>
+                     <p>Christine de
+                        Pizan, 
+                        Maurice Roy, 
+                        <i>Oeuvres poétiques de Christine de Pisan</i>,  
+                        Paris : Firmin-Didot,
+                        1886, 
+                        1, 
+                        
+                        n° 1, 
+                        xviii-xix.</p>
+                  </li>
+                  <li>
+                     <p>Pierre Josserand, 
+                        Jean Bruno, 
+                        
+                        « Les Estampilles du département des imprimés de la
+                        Bibliothèque nationale », 
+                        <i>Mélanges d’histoire du livre et des bibliothèques offerts à
+                           Monsieur Franz Calot</i>,  
+                        Paris : Librairie d'Argences,
+                        1960, 
+                        p. 261-298.</p>
+                  </li>
+                  <li>
+                     <p>Charity C. Williard, 
+                        
+                        « Christine de Pisan's Clock of Temperance », 
+                        <i>L'esprit créateur</i>,  
+                        1962, 
+                        
+                        n° 2, 
+                        p. 149-154.</p>
+                  </li>
+                  <li>
+                     <p>Gianni Mombello, 
+                        <i>La tradizione manuscrittaé dell'' Espistre Othea di
+                           Christine de Pizan. Prolegomeni all'edizione del testo</i>,  
+                        Turin : Academia delle Scienze,
+                        1967, 
+                        p. 63-70.</p>
+                  </li>
+                  <li>
+                     <p>James D. Farquhar, 
+                        Eric C. Hicks, 
+                        
+                        « Christine de Pizan's Dit de la Pastoure in Baltimore membra
+                        disjecta », 
+                        <i>Scriptorium</i>,  
+                        1976, 
+                        
+                        n° 30, 
+                        p. 192-200.</p>
+                  </li>
+                  <li>
+                     <p>Christine de
+                        Pizan, 
+                        Jean Gerson, 
+                        Jean de Montreuil, 
+                        Gontier, 
+                        Pierre Col, 
+                        Eric C. Hicks, 
+                        <i>Débat sur le Roman de la Rose</i>,  
+                        Paris : Champion,
+                        1977, 
+                        p. lxxi-lxxii.</p>
+                  </li>
+                  <li>
+                     <p>James C. Laidlaw, 
+                        
+                        « Christine de Pizan – A Publisher's Progress », 
+                        <i>The Modern Language Review</i>,  
+                        1987, 
+                        t. 82, 
+                        p. 42-52.</p>
+                  </li>
+                  <li>
+                     <p>Barbara K. Altmann, 
+                        <i>The Love Debate Poems of Christine de Pizan : le Livre du
+                           débat des deux amants, le Livre des trois jugements, le Livre du Dit de
+                           Poissy</i>,  
+                        Gainesville : University Press of Florida,
+                        1998, 
+                        </p>
+                  </li>
+                  <li>
+                     <p>Sylvie Lefevre, 
+                        
+                        « Prologues de recueils et mise en œuvre des textes : Robert
+                        de Blois, Christine de Pizan et Antoine de La Sale », 
+                        <i>Seuils de l’œuvre dans le texte médiéval</i>,  
+                        Paris : Presses de la Sorbonne Nouvelle,
+                        2002, 
+                        p. 89-125.</p>
+                  </li>
+                  <li>
+                     <p>Inès Villela-Petit, 
+                        <i>Le gothique international. L'art en France au temps de
+                           Charles VI</i>,  
+                        Paris : Edition Hazan-Musée du Louvre,
+                        2004, 
+                        p. 108.</p>
+                  </li>
+                  <li>
+                     <p>Margaret Conolly, 
+                        Yolanda Plumley, 
+                        
+                        « Crossing the channel : John Shirley and the circulation of
+                        french lyric poetry in England in the early fifteenth century », 
+                        <i>Patrons, authors and workshops. Books and book production
+                           in Paris around 1400</i>,  
+                        Louvain : Peeters,
+                        2006, 
+                        p. 311-331.</p>
+                  </li>
+                  <li>
+                     <p>Jane H. M. Taylor, 
+                        <i>The making of poetry. Late-Medieval french poetic
+                           anthologies</i>,  
+                        Turnhout : Brepols,
+                        2007, 
+                        Cité p. 20.</p>
+                  </li>
+                  <li>
+                     <p>Olivier Delsaux, 
+                        
+                        « La philologie au risque de l'autographie. L'exemple du
+                        Débat de deux amans de Christine de Pizan », 
+                        <i>Revue belge de philologie et d'histoire</i>,  
+                        2008, 
+                        
+                        n° 86, 
+                        p. 678-707, Cité p. 678.</p>
+                  </li>
+                  <li>
+                     <p>Olivier Delsaux, 
+                        
+                        « La publication autographe en moyen français : enjeux d'une
+                        définition à partir du cas de Christine de Pizan. Une recherche en
+                        chantier », 
+                        <i>Le moyen français</i>,  
+                        2008, 
+                        63, 
+                        p. 9-44, Cité p. 11.</p>
+                  </li>
+                  <li>
+                     <p>Jean-François Kosta-Thefaine, 
+                        
+                        « Les .XV. Joyes nostre Dame rimees de Christine de
+                        Pizan », 
+                        <i>Cahiers de recherches médiévales et humanistes</i>,  
+                        Paris : Champion,
+                        2008, 
+                        
+                        n° 16, 
+                        p. 255-277.</p>
+                  </li>
+                  <li>
+                     <p>Ursula Peters, 
+                        <i>Das Ich im Bild : Die Figur des Autors in volkssprachigen
+                           Bilderhandschriften des 13. bis 16. Jahrhunderts </i>,  
+                        Cologne : Böhlau,
+                        2008, 
+                        </p>
+                  </li>
+                  <li>
+                     <p>Inès Villela-Petit, 
+                        
+                        « À la recherche d’Anastaise », 
+                        <i>Cahiers de recherches médiévales et humanistes</i>,  
+                        Paris : Champion,
+                        2008, 
+                        
+                        n° 16, 
+                        p. 301 et suivantes.</p>
+                  </li>
+                  <li>
+                     <p>Anne-Marie Barbier, 
+                        
+                        « Dessein avoué et intentions voilées dans les
+                        représentations allégoriques de l’Epitre Othea de Christine de
+                        Pizan », 
+                        <i>L'allégorie dans l'art du Moyen âge. Formes et fonctions :
+                           héritages, créations, mutations</i>,  
+                        Turnhout : Brepols,
+                        2011, 
+                        p. 289-303, Cité p. 303.</p>
+                  </li>
+                  <li>
+                     <p>Olivier Delsaux, 
+                        
+                        « Le pin de Jean Castel, fils d'Étienne Castel et de
+                        Christine de Pizan », 
+                        <i>Archives d'histoire doctrinale et littéraire du Moyen
+                           Âge</i>,  
+                        2011, 
+                        p. 335-375.</p>
+                  </li>
+                  <li>
+                     <p>Anne-Marie Barbier, 
+                        
+                        « Les cycles iconographiques courts de l’Epistre Othea (vers
+                        1400-1405) : un essai de conciliation entre éthique profane et éthique
+                        religieuse ? », 
+                        <i>Christine de Pizan et son époque, Actes du colloque
+                           international des 9, 10 et 11 décembre 2011 à Amiens</i>,  
+                        Amiens : Presses du "Centre d'études médiévales", Université de Picardie -
+                        Jules Verne,
+                        2012, 
+                        p. 18-31.</p>
+                  </li>
+                  <li>
+                     <p>Gilbert Ouy, 
+                        Christine Reno, 
+                        Inès Villela-Petit, 
+                        <i>Album Christine de Pizan</i>,  
+                        Turnhout : Brepols,
+                        2012, 
+                        p. 213-226.</p>
+                  </li>
+                  <li>
+                     <p>Gilbert Ouy, 
+                        Christine Reno, 
+                        
+                        « La copie hâtive des Proverbes moraux », 
+                        <i>Cahiers de recherches médiévales et humanistes</i>,  
+                        2012, 
+                        
+                        n° 23, 
+                        </p>
+                  </li>
+                  <li>
+                     <p>Olivier Delsaux, 
+                        <i>Manuscrits et pratiques autographes chez les écrivains
+                           français de la fin du Moyen Âge: l'exemple de Christine de Pizan</i>,  
+                        Genève : Droz,
+                        2013, 
+                        Cité p. 37, 209, 279, 348 et 442.</p>
+                  </li>
+                  <li>
+                     <p>Christine de
+                        Pizan, 
+                        Andrea Valentini, 
+                        <i>Le Livre des epistres du debat sus le Rommant de la Rose</i>,  
+                        Paris : Classiques Garnier,
+                        2014, 
+                        Cité p. 8 et 19.</p>
+                  </li>
+                  <li>
+                     <p>Anne-Marie Barbier, 
+                        
+                        « La mise en page de l'illustration dans un manuscrit de
+                        l'"Epistre Othea" du début du XVe siècle : Fonctions et
+                        significations », 
+                        <i>La pensée du regard. Etudes d'histoire de l'art du Moyen
+                           Age offertes à Christian Heck</i>,  
+                        Turnhout : Brepols,
+                        2016, 
+                        Cité p. 39.</p>
+                  </li>
+                  <li>
+                     <p><i>Romania</i>,  
+                        Genève : Librairie Droz,
+                        2016, 
+                        134, 
+                        Cité p. 463.</p>
+                  </li>
+               </ol>
+            </div>
+         </div>
+      </main>
+      <footer class="bg-light text-muted">
+         <div class="container">
+            <p class="p-3 mb-0">Édition encodée dans le cadre du master TNAH de l'École nationale des
+               chartes. © Jade Norindr, 2023
+               </p>
+         </div>
+      </footer><script src="script.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script></body>
+</html>

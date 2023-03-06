@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "DTD_Oraison_Pizan.dtd">
-<?xml-model href="RNG_Oraison_Pizan.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="RNG_Oraison_Pizan.rng" type="application/xml"
+<!DOCTYPE TEI SYSTEM "documentation/DTD_Oraison_Pizan.dtd">
+<?xml-model href="documentation/RNG_Oraison_Pizan.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="documentation/RNG_Oraison_Pizan.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -895,7 +895,7 @@
                <l facs="#l44">A&sl;&sl;i&sl;e ou plus hault &ter;mine</l>
                <l facs="#l45">&D;u ciel par la grace divine</l>
                <l facs="#l46">Apres <rs ref="#JesusChrist">ton &F;ilz</rs> com fut predit&virg;</l>
-               <l facs="#l47">&P;pour le <rs ref="CharlesVI">&R;oy de <placeName ref="#France">&F;rance</placeName></rs> te pry</l>
+               <l facs="#l47">&P;our le <rs ref="CharlesVI">&R;oy de <placeName ref="#France">&F;rance</placeName></rs> te pry</l>
                <l facs="#l48">Qu&ap;en pitie tu oyes le cry</l>
                <l facs="#l49">&D;e&sp;&sl;es bons &et;loyaux amis&virg;</l>
                <pb n="154v" facs="https://gallica.bnf.fr/ark:/12148/btv1b60001038/f312.item"/>
@@ -1089,7 +1089,7 @@
                <l facs="#l158"><g ref="#pdm" rend="color:blue">&pdm;</g>
                   O <rs ref="#ViergeMarie">lumiere cele&sl;tielle</rs>&virg;</l>
                <l facs="#l159">&D;e nous conduire la droicte ele&virg;</l>
-               <l facs="#l160">Si &com;me dit <persName ref="#SaintAnsiaume">&sl;aint &A;nsiaume</persName>&virg;</l>
+               <l facs="#l160">Si &com;me dit <persName ref="#SaintAnsiaume">&sl;aint &A;n&sl;iaume</persName>&virg;</l>
                <l facs="#l161">Qui tant portas doulour cruelle</l>
                <l facs="#l162">A la mort <rs ref="#JesusChrist">ton &F;ilz</rs> qui t&ap;appelle</l>
                <l facs="#l163">Tu lui es deffen&sl;e &et;heaume&dpts;</l>
